@@ -1,0 +1,10 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<div>
+	<media:image image="{image}" alt="{name} Profilbild"/>
+	<span>{neos:contentElement.editable(property: 'name')}</span>
+	<span>{neos:contentElement.editable(property: 'position')}</span>
+	<span>{neos:contentElement.editable(property: 'course')}</span>
+	<span>{neos:contentElement.editable(property: 'semester')}</span>
+	<span>{neos:contentElement.editable(property: 'description')}</span>
+</div>

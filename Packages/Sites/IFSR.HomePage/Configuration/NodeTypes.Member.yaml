@@ -1,0 +1,33 @@
+'IFSR.HomePage:Member':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes:ContentImageMixin': true
+  ui:
+    label: 'Mitglied'
+    icon: 'icon-user'
+  properties:
+    name:
+      type: 'string'
+      defaultValue: 'Mathias Stuhlbein'
+      ui:
+        inlineEditable: true
+    position:
+      type: 'string'
+      defaultValue: 'Bot'
+      ui:
+        inlineEditable: true
+    course:
+      type: 'string'
+      defaultValue: 'Bachelor Informatik'
+      ui:
+        inlineEditable: true
+    semester:
+      type: 'string'
+      defaultValue: '1. Semester'
+      ui:
+        inlineEditable: true
+    description:
+      type: 'string'
+      defaultValue: 'Lorem Ipsum dolor sit amet'
+      ui:
+        inlineEditable: true
