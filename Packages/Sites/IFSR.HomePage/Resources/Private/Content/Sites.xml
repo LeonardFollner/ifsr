@@ -2,28 +2,213 @@
 <root>
  <site name="ifsr.de" state="1" siteResourcesPackageKey="IFSR.HomePage" siteNodeName="ifsr-homepage">
   <nodes formatVersion="2.0">
-   <node nodeName="ifsr-homepage">
-    <variant workspace="live" nodeType="Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-     
-      <language>en_US</language>
-     
-     </dimensions>
+   <node identifier="9f6dacce-ffe6-411d-b776-aac3831ddf1f" nodeName="ifsr-homepage">
+    <variant sortingIndex="100" workspace="live" nodeType="IFSR.HomePage:EntryPoint" version="5" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:11:51+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:56:39+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:56:39+00:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="Neos.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-      
-       <language>en_US</language>
-      
-      </dimensions>
+    <node identifier="b19feece-6b3b-e292-ce7c-9f711100db31" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-04-14T19:56:26+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:56:39+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:56:39+00:00</lastPublicationDateTime>
+      <properties/>
      </variant>
+     <node identifier="0259d21b-1847-4698-b9a5-a1370f7cf0fe" nodeName="node-ancdxb0t713g3">
+      <variant sortingIndex="100" workspace="live" nodeType="IFSR.HomePage:BlogList" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:47+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:16:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:16:51+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="4819a54a-69f3-45f2-ba63-4ca02ee8e288" nodeName="node-rkxevbz4rr648">
+     <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:Blog" version="3" removed="" hidden="" hiddenInIndex="1">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:10:27+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">blog</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Blog</title>
+      </properties>
+     </variant>
+     <node identifier="c67fc4f2-9e41-5721-6dee-067ddb7f2471" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:10:27+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="2ee7aab2-ce7c-46d6-862c-2a1799986255" nodeName="node-qs01ipesw7g2g">
+      <variant sortingIndex="250" workspace="live" nodeType="IFSR.HomePage:BlogPost" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:18+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:22+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:22+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">programmierkurstutor-innen-gesucht</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Programmierkurstutor:innen gesucht</title>
+       </properties>
+      </variant>
+      <node identifier="871aebc4-b603-7afe-325a-91b140244050" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:18+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:22+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:22+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="cee44195-8b70-43ee-b240-2f72cd2f58e9" nodeName="node-wh2q7ygc5rv71">
+      <variant sortingIndex="200" workspace="live" nodeType="IFSR.HomePage:BlogPost" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:42+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:24+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">18-04-spieleabend</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">[18.04] Spieleabend</title>
+       </properties>
+      </variant>
+      <node identifier="cb0d44bd-97f4-bea3-716a-4091cf4b891b" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:42+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:24+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:13:24+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="29b10497-0ef2-4fb5-8eed-231aa28ed1b5" nodeName="node-qmtq4ii9n7trk">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:58:58+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:59:07+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:59:07+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem Ipsum Dolor Sit Amet&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="8e25fd8d-9e56-4226-8a17-257ef5a3215b" nodeName="node-sk7xdxee76faq">
+     <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:15:04+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">fachschaftsrat</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Fachschaftsrat</title>
+      </properties>
+     </variant>
+     <node identifier="8d050e65-aaf2-1700-3462-f82325336783" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:15:04+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="78ac42f9-aab6-4bf4-bb18-5b615c68244d" nodeName="node-0ye2s277dovy9">
+      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:16:51+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">mitglieder</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Mitglieder</title>
+       </properties>
+      </variant>
+      <node identifier="0696b1e8-9bf7-ef26-d942-5a6fb23fb35f" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:16:51+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="07b70469-fa7d-4b09-887f-f2e7021e7cf7" nodeName="node-prm2pyvryw3th">
+        <variant sortingIndex="100" workspace="live" nodeType="IFSR.HomePage:Member" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:32:14+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+         <properties>
+          <caption __type="string"></caption>
+          <alignment __type="string"></alignment>
+          <name __type="string">Mathias Stuhlbein</name>
+          <position __type="string">Bot</position>
+          <course __type="string">Bachelor Informatik</course>
+          <semester __type="string">1. Semester</semester>
+          <description __type="string">Lorem Ipsum dolor sit amet</description>
+          <image __type="object" __identifier="6e0621da-85b1-4986-a037-e9310987ed10" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6e0621da-85b1-4986-a037-e9310987ed10&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;facebook_1517752700633.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;hash&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;__identity&quot;:&quot;ba0007f1-6d2d-4ffc-94b7-cea8c64c41d9&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="d20e0e7f-4bea-44c8-8063-0a3c1a7325a5" nodeName="node-wxinyrbjhpfdx">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:15:29+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">info-und-kontakt</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Info und Kontakt</title>
+       </properties>
+      </variant>
+      <node identifier="874300d5-4cf2-b81c-8dca-3a0d7b001dd8" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:15:29+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
     </node>
    </node>
   </nodes>
