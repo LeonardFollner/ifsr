@@ -1,0 +1,5 @@
+'IFSR.HomePage:BlogList':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Blog Post List'

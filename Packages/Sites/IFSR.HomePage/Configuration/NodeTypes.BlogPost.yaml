@@ -1,0 +1,5 @@
+'IFSR.HomePage:BlogPost':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    label: 'Blog Post'

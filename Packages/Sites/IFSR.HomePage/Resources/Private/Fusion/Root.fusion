@@ -35,3 +35,18 @@ page = Neos.Neos:Page {
 		}
 	}
 }
+
+prototype(IFSR.HomePage:BlogList) < prototype(Flowpack.Listable:PaginatedCollection) {
+	collection = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').get()}
+	itemsPerPage = 12
+	prototype(Flowpack.Listable:Collection) {
+		listClass = 'myPaginatedList'
+		itemClass = 'myPaginatedList__item'
+	}
+}
+
+prototype(IFSR.HomePage:BlogPost.Short) < prototype(Neos.Fusion:Template) {
+	templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/BlogPostPreview.html'
+	node = ${node}
+	nodePath = ${q(node).children().get(0).nodeData.path}
+}

@@ -1,0 +1,8 @@
+'IFSR.HomePage:EntryPoint':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'IFSR.HomePage:Blog': true
+  ui:
+    label: 'Home (Entry Point)'

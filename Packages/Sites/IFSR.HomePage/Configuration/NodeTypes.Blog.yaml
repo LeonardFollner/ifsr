@@ -1,0 +1,10 @@
+'IFSR.HomePage:Blog':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    label: 'Blog'
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
+      'Neos.NodeTypes:Page': false
+      'IFSR.HomePage:BlogPost': true
