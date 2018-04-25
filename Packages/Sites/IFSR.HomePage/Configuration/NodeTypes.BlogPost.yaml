@@ -1,5 +1,8 @@
 'IFSR.HomePage:BlogPost':
   superTypes:
     'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'IFSR.HomePage:BlogList': false
   ui:
     label: 'Blog Post'

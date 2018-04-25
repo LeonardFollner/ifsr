@@ -4,5 +4,6 @@
   constraints:
     nodeTypes:
       'IFSR.HomePage:Blog': true
+      'IFSR.HomePage:EntryPoint': false
   ui:
     label: 'Home (Entry Point)'
