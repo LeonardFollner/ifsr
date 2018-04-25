@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "watch": "node-sass Resources/Private/Scss/ -o Resources/Public/Styles/ --source-map true -w"
+        "watch": "node-sass Resources/Private/Scss/ -o Resources/Public/Styles/ --source-map true --watch"
     },
     "dependencies": {
         "foundation-sites": "^6.4.4-rc1",
