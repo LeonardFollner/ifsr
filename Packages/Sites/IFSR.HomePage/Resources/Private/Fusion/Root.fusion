@@ -36,17 +36,15 @@ page = Neos.Neos:Page {
 	}
 }
 
-prototype(IFSR.HomePage:BlogList) < prototype(Flowpack.Listable:PaginatedCollection) {
-	collection = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').get()}
-	itemsPerPage = 12
-	prototype(Flowpack.Listable:Collection) {
-		listClass = 'myPaginatedList'
-		itemClass = 'myPaginatedList__item'
-	}
+prototype(IFSR.HomePage:BlogList) < prototype(Neos.Fusion:Collection) {
+    collection = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').get()}
+    itemRenderer = IFSR.HomePage:BlogPost
 }
 
-prototype(IFSR.HomePage:BlogPost.Short) < prototype(Neos.Fusion:Template) {
-	templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/BlogPostPreview.html'
-	node = ${node}
-	nodePath = ${q(node).children().get(0).nodeData.path}
+prototype(IFSR.HomePage:BlogPost) < prototype(Neos.Fusion:Template) {
+    templatePath = 'resource://IFSR.HomePage/Private/Templates/FusionObjects/BlogPostPreview.html'
+    article = ${item}
+    main = Neos.Neos:ContentCollectionRenderer {
+        @context.node = ${q(item).children('main').get()}
+    }
 }
