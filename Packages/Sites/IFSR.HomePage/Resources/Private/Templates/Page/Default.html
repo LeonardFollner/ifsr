@@ -5,6 +5,7 @@
 <head>
 	<f:section name="stylesheets">
 		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/main.css', package: 'IFSR.HomePage')}"/>
 	</f:section>
 	<f:section name="headScripts">
 		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
@@ -21,6 +22,9 @@
 </f:section>
 <f:section name="bodyScripts">
 	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+    <script src="{f:uri.resource(path: 'JavaScript/jquery.min.js', package: 'IFSR.HomePage')}"></script>
+    <script src="{f:uri.resource(path: 'JavaScript/foundation.min.js', package: 'IFSR.HomePage')}"></script>
+    <script src="{f:uri.resource(path: 'JavaScript/main.js', package: 'IFSR.HomePage')}"></script>
 </f:section>
 </body>
 </html>
