@@ -1,0 +1,4 @@
+main {
+    width: $global-width;
+    @include horizontal-center;
+}
