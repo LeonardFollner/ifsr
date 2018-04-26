@@ -18,7 +18,12 @@ page = Neos.Neos:Page {
 		templatePath = 'resource://IFSR.HomePage/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
-			menu = Neos.Neos:Menu
+            menu = Menu
+            menu {
+                templatePath = 'resource://IFSR.HomePage/Private/Templates/FusionObjects/MainMenu.html'
+                entryLevel = 1
+                maximumLevels = 2
+            }
 		}
 
 		// These are your content areas, you can define as many as you want, just name them and the nodePath.
