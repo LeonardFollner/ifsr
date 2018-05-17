@@ -37,6 +37,11 @@ page = Neos.Neos:Page {
 			main = Neos.Neos:PrimaryContent {
 				nodePath = 'main'
 			}
+
+            footer = Neos.Neos:ContentCollection {
+                nodePath = ${q(site).find('footer').property('_path')}
+                collection = ${q(site).children('footer').children()}
+            }
 		}
 
 		javascripts.site = Neos.Fusion:Template {
@@ -81,6 +86,10 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
             // The default content section
 			main = Neos.Neos:PrimaryContent {
                 nodePath = 'main'
+            }
+            footer = Neos.Neos:ContentCollection {
+                nodePath = ${q(site).find('footer').property('_path')}
+                collection = ${q(site).children('footer').children()}
             }
         }
 

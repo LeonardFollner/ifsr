@@ -7,3 +7,6 @@
       'IFSR.HomePage:EntryPoint': false
   ui:
     label: 'Home (Entry Point)'
+  childNodes:
+      footer:
+        type: 'Neos.Neos:ContentCollection'

@@ -1,5 +1,33 @@
+$footer-height: 13rem;
+
+html {
+    height: 100%;
+    background-color: $primary-color;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: $footer-height;
+}
+
 main {
     width: $global-width;
     max-width: 100%;
+    position: relative !important;
     @include horizontal-center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+
+    padding: $global-padding;
+    background-color: $dark-gray;
+    color: $white;
+}
+
+::selection {
+    background-color: $medium-gray;
 }
