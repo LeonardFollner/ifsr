@@ -1,0 +1,24 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+<li class="menuitem has-submenu is-dropdown-submenu-parent is-down-arrow" role="menuitem">
+    <a>Language</a>
+    <ul class="submenu menu vertical">
+        <f:for each="{items}" as="item">
+            <li class="is-submenu-item is-dropdown-submenu-item">
+                <f:if condition="{item.node}">
+                    <f:then>
+                        <neos:link.node node="{item.node}">
+                            <f:render section="itemLabel" arguments="{item:item}"/>
+                        </neos:link.node>
+                    </f:then>
+                    <f:else>
+                        <f:render section="itemLabel" arguments="{item:item}"/>
+                    </f:else>
+                </f:if>
+            </li>
+        </f:for>
+    </ul>
+</li>
+
+<f:section name="itemLabel">
+    {item.label}
+</f:section>

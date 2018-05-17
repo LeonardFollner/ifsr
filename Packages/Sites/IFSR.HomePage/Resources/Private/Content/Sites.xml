@@ -43,7 +43,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">studium</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Studium</title>
       </properties>
      </variant>
@@ -66,7 +65,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">allgemeines</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Allgemeines</title>
        </properties>
       </variant>
@@ -89,7 +87,6 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
         <properties>
          <uriPathSegment __type="string">nutzliche-links</uriPathSegment>
-         <canonicalLink __type="string"></canonicalLink>
          <title __type="string">Nützliche Links</title>
         </properties>
        </variant>
@@ -221,7 +218,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">service</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Service</title>
       </properties>
      </variant>
@@ -244,7 +240,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">druckservice</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Druckservice</title>
        </properties>
       </variant>
@@ -375,7 +370,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">notenrechner</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Notenrechner</title>
        </properties>
       </variant>
@@ -436,7 +430,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">gerate-ausleihen</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Geräte ausleihen</title>
        </properties>
       </variant>
@@ -491,7 +484,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">klausuren</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Klausuren</title>
        </properties>
       </variant>
@@ -530,7 +522,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">komplexprufungen</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Komplexprüfungen</title>
        </properties>
       </variant>
@@ -604,7 +595,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T16:53:13+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">new-blog-post</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">New Blog Post</title>
        </properties>
       </variant>
@@ -638,8 +628,6 @@
          <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T16:55:47+00:00</lastModificationDateTime>
          <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T16:55:47+00:00</lastPublicationDateTime>
          <properties>
-          <caption __type="string"></caption>
-          <alignment __type="string"></alignment>
           <image __type="object" __identifier="f9804ba0-1674-48b4-b469-32799642c990" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f9804ba0-1674-48b4-b469-32799642c990&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;spieleabend_2018-04-18--small.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;hash&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;__identity&quot;:&quot;340e20eb-3fec-4391-ad5f-6dcb18129a27&quot;}}</image>
          </properties>
         </variant>
@@ -723,6 +711,19 @@
         <properties/>
        </variant>
        <node identifier="58f9db40-9f33-43de-8632-b3b53acd1078" nodeName="node-m4lvt8atgng2k">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-05-17T10:29:29+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T10:29:37+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:29:37+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;[18.04.] Games Night&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
         <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
          <accessRoles __type="array"/>
@@ -758,8 +759,6 @@
          <lastModificationDateTime __type="object" __classname="DateTime">2018-04-25T13:51:04+00:00</lastModificationDateTime>
          <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-25T13:51:04+00:00</lastPublicationDateTime>
          <properties>
-          <caption __type="string"></caption>
-          <alignment __type="string"></alignment>
           <image __type="object" __identifier="f9804ba0-1674-48b4-b469-32799642c990" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f9804ba0-1674-48b4-b469-32799642c990&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;spieleabend_2018-04-18--small.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;hash&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;__identity&quot;:&quot;340e20eb-3fec-4391-ad5f-6dcb18129a27&quot;}}</image>
          </properties>
         </variant>
@@ -791,6 +790,19 @@
      </node>
      <node identifier="78ac42f9-aab6-4bf4-bb18-5b615c68244d" nodeName="node-0ye2s277dovy9">
       <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:13+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">mitglieder</uriPathSegment>
+        <title __type="string">Members</title>
+       </properties>
+      </variant>
+      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:16:51+00:00</creationDateTime>
@@ -810,7 +822,30 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:13+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
        <node identifier="0b57ac6c-a914-49ff-aa05-38f63ff5e10f" nodeName="node-l8rzut86f2vts">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:37+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:40+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Members&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
         <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
          <accessRoles __type="array"/>
@@ -848,8 +883,6 @@
          <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T16:54:09+00:00</lastModificationDateTime>
          <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T16:54:08+00:00</lastPublicationDateTime>
          <properties>
-          <caption __type="string"></caption>
-          <alignment __type="string"></alignment>
           <name __type="string">Lutz Thies</name>
           <position __type="string">Sprecher</position>
           <course __type="string">Master Informatik</course>
@@ -887,7 +920,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">entsendungen</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Entsendungen</title>
        </properties>
       </variant>
@@ -1159,7 +1191,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">gremien</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Gremien</title>
        </properties>
       </variant>
@@ -1268,7 +1299,6 @@ Der studentische Vertreter in der Auswahlkommission entscheidet zusammen mit Pro
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">sitzung-und-protokolle</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Sitzung und Protokolle</title>
        </properties>
       </variant>

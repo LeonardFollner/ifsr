@@ -4,23 +4,41 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<f:section name="stylesheets">
-		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
+    <f:section name="stylesheets">
+        <!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
         <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/main.css', package: 'IFSR.HomePage')}"/>
-	</f:section>
-	<f:section name="headScripts">
-		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
-	</f:section>
+    </f:section>
+    <f:section name="headScripts">
+        <!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
+    </f:section>
 </head>
 <body>
 <f:section name="body">
-    {parts.menu -> f:format.raw()}
-	<main>
-		{content.main -> f:format.raw()}
-	</main>
+
+    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium" style="display: block;">
+        <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+    <nav class="top-bar" id="main-menu">
+        <div class="top-bar-left">
+            <a href="{neos:uri.node(node: '~')}">
+                <img src="{f:uri.resource(path: 'Images/ifsr.svg', package: 'IFSR.HomePage')}" class="logo"/>
+            </a>
+        </div>
+        <div class="top-bar-right">
+            <ul class="vertical medium-horizontal menu dropdown" data-responsive-menu="drilldown medium-dropdown" role="menubar">
+                {parts.menu -> f:format.raw()}
+                {parts.languageMenu -> f:format.raw()}
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        {content.main -> f:format.raw()}
+    </main>
 </f:section>
 <f:section name="bodyScripts">
-	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+    <!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
     <script src="{f:uri.resource(path: 'JavaScript/jquery.min.js', package: 'IFSR.HomePage')}"></script>
     <script src="{f:uri.resource(path: 'JavaScript/foundation.min.js', package: 'IFSR.HomePage')}"></script>
     <script src="{f:uri.resource(path: 'JavaScript/main.js', package: 'IFSR.HomePage')}"></script>
