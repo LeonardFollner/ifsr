@@ -102,10 +102,10 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
 
 prototype(IFSR.HomePage:BlogList) < prototype(Neos.Fusion:Collection) {
     collection = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').get()}
-    itemRenderer = IFSR.HomePage:BlogPost
+    itemRenderer = IFSR.HomePage:BlogPostPreview
 }
 
-prototype(IFSR.HomePage:BlogPost) < prototype(Neos.Fusion:Template) {
+prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Fusion:Template) {
     templatePath = 'resource://IFSR.HomePage/Private/Templates/FusionObjects/BlogPostPreview.html'
     article = ${item}
     main = Neos.Neos:ContentCollectionRenderer {
