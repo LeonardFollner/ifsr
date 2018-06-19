@@ -1,0 +1,8 @@
+'IFSR.HomePage:Logo':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'iFSR-Logo'
+  constraints:
+    nodeTypes:
+      '*': false

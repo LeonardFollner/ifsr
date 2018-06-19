@@ -1,0 +1,13 @@
+.column {
+    @extend .cell;
+    @extend .auto;
+}
+
+.container {
+    height: 100%;
+}
+
+.neos-nodetypes-twocolumn, .neos-nodetypes-threecolumn {
+    @extend .grid-x;
+    @extend .grid-margin-x;
+}

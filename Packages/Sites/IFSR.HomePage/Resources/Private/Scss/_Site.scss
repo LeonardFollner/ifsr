@@ -17,16 +17,6 @@ main {
     position: relative !important;
     @include horizontal-center;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: $footer-height;
-
-    padding: $global-padding;
-    background-color: $dark-gray;
-    color: $white;
-}
 
 ::selection {
     background-color: $medium-gray;

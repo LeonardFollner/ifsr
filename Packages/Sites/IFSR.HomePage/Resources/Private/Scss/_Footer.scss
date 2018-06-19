@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: $footer-height;
+
+    padding: $global-padding;
+    background-color: $dark-gray;
+    color: $white;
+
+    & > div.neos-contentcollection {
+        height: 100%;
+        width: 100%;
+        max-width: $global-width;
+    }
+
+    .column:last-of-type {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    ::selection {
+        background-color: $primary-color;
+    }
+}
