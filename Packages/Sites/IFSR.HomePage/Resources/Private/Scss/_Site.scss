@@ -18,6 +18,14 @@ main {
     @include horizontal-center;
 }
 
+main > .neos-contentcollection {
+    margin: $global-margin;
+
+    & > .neos-nodetypes-text {
+        @include callout;
+    }
+}
+
 ::selection {
     background-color: $medium-gray;
 }
