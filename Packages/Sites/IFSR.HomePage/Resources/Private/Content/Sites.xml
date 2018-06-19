@@ -14,6 +14,145 @@
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
+    <node identifier="056470e4-5f8b-ef34-80eb-c9db1a58a036" nodeName="footer">
+     <variant sortingIndex="650" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-19T16:30:38+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T16:30:38+00:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="35e50482-3ff6-4441-85b1-751d21a2e6a2" nodeName="node-opp7iwdyljhkh">
+      <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:ThreeColumn" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:36:21+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastPublicationDateTime>
+       <properties>
+        <layout __type="string">33-33-33</layout>
+       </properties>
+      </variant>
+      <node identifier="3db5fbb0-3ee1-669e-8bd5-4e8e0aac9648" nodeName="column0">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:36:21+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="45633df0-da81-4de6-9183-0a6591f6824c" nodeName="node-z5wdn8z5i0zje">
+        <variant sortingIndex="300" workspace="live" nodeType="IFSR.HomePage:Logo" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T17:48:31+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="022abfcb-0b60-97a0-57ea-4e9644c16e69" nodeName="column1">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:36:21+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="7d33815d-7521-406a-b57c-62b3d9da4c22" nodeName="node-5cqb040oa7r0g">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="8" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:38:47+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:14+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:14+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;&lt;a href=&quot;node://d20e0e7f-4bea-44c8-8063-0a3c1a7325a5&quot;&gt;Kontaxt&lt;/a&gt;&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="ef6ff5ce-7d00-45bf-bdab-5a2f53ba50c5" nodeName="node-nt1zl23h99ne6">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:07+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:42:32+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:42:32+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;&lt;a href=&quot;&quot;&gt;Impressum&lt;/a&gt;&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="3aa2699a-e1b7-8c18-03fd-67cf2bebe5bd" nodeName="column2">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:36:21+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:37:01+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="8e6a4bbf-d2e3-4af3-b652-d297d7234efc" nodeName="node-vbwyciumogbsd">
+        <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Text" version="15" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:05+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:42:32+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:42:32+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Tel: &lt;a href=&quot;tel:+49351/463 38 226&quot;&gt;+49 351 / 463 38 226&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adresse&lt;/strong&gt;:&lt;br /&gt;
+Fakultät Informatik&lt;br /&gt;
+Nöthnitzerstr. 46&lt;br /&gt;
+Raum E017&lt;br /&gt;
+01187 Dresden&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="64e851b8-6f04-4140-8d0f-2c175114c438" nodeName="node-u97gf9us0gaf1">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:51+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:53+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:53+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">&lt;h1&gt;Das&amp;nbsp;ist der geteilte Footer&lt;/h1&gt;
+</title>
+       </properties>
+      </variant>
+     </node>
+    </node>
     <node identifier="b19feece-6b3b-e292-ce7c-9f711100db31" nodeName="main">
      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
@@ -44,6 +183,20 @@
       <properties>
        <uriPathSegment __type="string">studium</uriPathSegment>
        <title __type="string">Studium</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="347" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">studium</uriPathSegment>
+       <title __type="string">Studium</title>
+       <targetMode __type="string">firstChildNode</targetMode>
       </properties>
      </variant>
      <node identifier="7ce51c20-5281-6d1d-b23e-fd11e1b7c554" nodeName="main">
@@ -204,6 +357,125 @@
 </text>
           </properties>
          </variant>
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:33+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:50+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:50+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h2&gt;Kurse und Prüfungen&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.inf.tu-dresden.de/index.php?node_id=2710&amp;amp;ln=de&quot;&gt;Stundenpläne&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.inf.tu-dresden.de/index.php?node_id=2970&amp;amp;ln=de&quot;&gt;FAQ&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.integrale.de/&quot;&gt;Studium Generale&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.inf.tu-dresden.de/index.php?node_id=2711&amp;amp;ln=de&quot;&gt;AQua und Allgemeine Kompetenz&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://jexam.inf.tu-dresden.de/&quot;&gt;jExam&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://bildungsportal.sachsen.de/opal/dmz/&quot;&gt;OPAL&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://moodle.inf.tu-dresden.de/&quot;&gt;Moodle&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://tu-dresden.de/die_tu_dresden/zentrale_einrichtungen/usz&quot;&gt;Universitätssportzentrum&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://lskonline.tu-dresden.de/&quot;&gt;LSKonline&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://ifsr.de/notenrechner&quot;&gt;Onlinerechner für Zeugnisnoten&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/kpp/&quot;&gt;Komplexprüfungsprotokoll eintragen&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Andere TU-Stellen&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://tu-dresden.de/&quot;&gt;TU Dresden&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://tu-dresden.de/ing/informatik&quot;&gt;Fakultät Informatik&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.stura.tu-dresden.de/&quot;&gt;Studentenrat&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.studentenwerk-dresden.de/&quot;&gt;Studentenwerk&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://tu-dresden.de/ing/informatik/studium/pruefungsorganisation&quot;&gt;Prüfungsamt&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://tu-dresden.de/karriere/berufseinstieg/beratung&quot;&gt;Beratung zum Berufseinstieg des Career Service&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://wiwi.file3.wcms.tu-dresden.de/dokumente/breifkasten.pdf&quot;&gt;Fristenbriefkästen der TU Dresden&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sonstige&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://navigator.tu-dresden.de/newnav/&quot;&gt;Campus-Navigator&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.studentenwerk-dresden.de/mensen/speiseplan/&quot;&gt;Mensa-Speisepläne&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.slub-dresden.de/&quot;&gt;SLUB&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.ascii-dresden.de/&quot;&gt;Studentencafé ASCII&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.countdown-dresden.de/&quot;&gt;Studentenclub Count Down&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.studentenwerk-dresden.de/kultur/studentenclubs.html&quot;&gt;Alle Studentenclubs&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.nightline-dresden.de/&quot;&gt;Nightline Dresden e.V.: Studentisches Zuhörtelefon&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;http://www.esn-dresden.de/&quot;&gt;ESN, Erasmusinitiative der TU Dresden&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+</text>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="ba50694e-efd8-4007-a74e-cf2e82253d47" nodeName="node-hcfipjldui9y2">
+         <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:46+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:50+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:50+00:00</lastPublicationDateTime>
+          <properties>
+           <title __type="string">&lt;h1&gt;Nützliche Links&lt;/h1&gt;
+</title>
+          </properties>
+         </variant>
         </node>
        </node>
       </node>
@@ -219,6 +491,20 @@
       <properties>
        <uriPathSegment __type="string">service</uriPathSegment>
        <title __type="string">Service</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="344" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:52:47+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">service</uriPathSegment>
+       <title __type="string">Service</title>
+       <targetMode __type="string">firstChildNode</targetMode>
       </properties>
      </variant>
      <node identifier="a4e8fc8d-7d51-d6fa-46af-30d41a803bc3" nodeName="main">
@@ -252,6 +538,21 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="089df659-ea13-4b73-9537-8f9826a9e287" nodeName="node-3m8aitkgzl333">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:40+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:43+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:43+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Druckservice im FSR Büro&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
        <node identifier="72065bf1-d2d5-4095-96c4-1e0ffe1d3c01" nodeName="node-paxftimquoc0c">
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
@@ -263,6 +564,111 @@
           <text __type="string">&lt;h2&gt;Druckservice im FSR Büro&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Preisliste:&lt;/strong&gt;&amp;nbsp;Scharz/Weiß - Drucken oder Kopieren&lt;/p&gt;
+
+&lt;p&gt;0.02€ pro Seite&lt;/p&gt;
+
+&lt;p&gt;Gesamtpreis wird auf nächste 5 Cent gerundet&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Farbdruck:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Aus Versehen farbig gedruckt? Pech gehabt - Preise wie oben!&lt;/p&gt;
+
+&lt;p&gt;Wie viel werde ich wohl zahlen müssen? Frage einfach nach!&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:33+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:43+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:43+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;&lt;strong&gt;Preisliste:&lt;/strong&gt;&amp;nbsp;Scharz/Weiß - Drucken oder Kopieren&lt;/p&gt;
 
 &lt;p&gt;0.02€ pro Seite&lt;/p&gt;
 
@@ -418,6 +824,56 @@
 </text>
          </properties>
         </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:07+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:19+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:19+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Für die Studiengänge&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;Bachelor Informatik&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Bachelor Medieninformatik&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Diplom Informatik (PO 2010)&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Master Informatik&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Master Medieninformatik&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;gibt es jetzt einen&amp;nbsp;&lt;a href=&quot;https://ifsr.de/notenrechner&quot;&gt;Onlinerechner für eure Abschluss- bzw. Vordiplomnoten.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Solltet ihr Fehler finden, schickt bitte eine Nachricht an an&amp;nbsp;&lt;a href=&quot;mailto:sascha@ifsr.de&quot;&gt;sascha@ifsr.de&lt;/a&gt;&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="8754838a-baff-4784-a421-27ac6a216e3f" nodeName="node-knd3xlowqeret">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:13+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:19+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:19+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Onlinerechner für Zeugnisnoten&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
        </node>
       </node>
      </node>
@@ -442,7 +898,51 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="c58e2386-da91-4ea3-9c58-f366a4d4ff84" nodeName="node-p8dhjd0jsnqtl">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:52+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Geräte ausleihen&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
        <node identifier="a7b20abf-6882-49be-a432-9d1583757ff3" nodeName="node-zymqgolyeyror">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:36+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Der Fachschaftsrat bietet diverse Geräte zum Verleih an, beispielsweise den Raspberry Pi, Lego-Roboter, einen Switch oder die Oculus Rift. Eine Auflistung aller Leihgegenstände findest du hier:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/_media/leihmaterial.pdf&quot;&gt;Leihmaterial&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Weitere Informationen zum Verleih gibt es hier:&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/_media/leihordnung.pdf&quot;&gt;Leihordnung&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wenn ihr Fragen bezüglich des Ausleihens habt, oder euch unsicher seid, kommt einfach zu uns ins FSR-Büro. Wir helfen euch gern weiter!&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
          <accessRoles __type="array"/>
@@ -496,6 +996,21 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="41e48f8b-6180-4db2-9c1c-b01dfab6e531" nodeName="node-5a3smregvktat">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:55+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:59+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:58+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Alte Klausuren&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
        <node identifier="3ca85862-8188-41e1-99ae-cdbc2a7db33b" nodeName="node-ha7uf3wlm85yq">
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
@@ -507,6 +1022,19 @@
           <text __type="string">&lt;h2&gt;Alte Klausuren&lt;/h2&gt;
 
 &lt;p&gt;Auf dem&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/&quot;&gt;FTP-Server&lt;/a&gt;&amp;nbsp;des iFSR findet ihr unter&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/klausuren/&quot;&gt;Klausuren&lt;/a&gt;&amp;nbsp;verschiedene alte Prüfungsklausuren aus dem Grundstudium. Diese Seite ist nur aus dem TU Dresden Netzwerk (also z.B. eduroam) erreichbar.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:50+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:59+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:58+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Auf dem&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/&quot;&gt;FTP-Server&lt;/a&gt;&amp;nbsp;des iFSR findet ihr unter&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/klausuren/&quot;&gt;Klausuren&lt;/a&gt;&amp;nbsp;verschiedene alte Prüfungsklausuren aus dem Grundstudium. Diese Seite ist nur aus dem TU Dresden Netzwerk (also z.B. eduroam) erreichbar.&lt;/p&gt;
 </text>
          </properties>
         </variant>
@@ -534,6 +1062,21 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="c53045a6-9d26-4626-8fb2-c7f8b359bc65" nodeName="node-599dkz572goqf">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:10+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:52+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:52+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Komplexprüfungen&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
        <node identifier="55be0ffd-adef-4e8d-9697-fd172e2200a2" nodeName="node-v3awwj1sxf7d0">
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
@@ -550,7 +1093,65 @@
 </text>
          </properties>
         </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:04+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:52+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:58:52+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Für eure Prüfungsvorbereitungen bieten wir euch Protokolle von Komplexprüfungen. Nachdem du eine Komplexprüfung abgelegt hast, wäre es schön, wenn du uns auch ein Protokoll&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/kpp/&quot;&gt;hier eintragen&lt;/a&gt;&amp;nbsp;könntest. Das Protokoll taucht dann nach einer Bestätigung von uns hier auf:&lt;/p&gt;
+
+&lt;p&gt;Protokolle von Komplexprüfungen findet ihr auf dem&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/komplexpruef/&quot;&gt;FTP Server&lt;/a&gt;&amp;nbsp;des iFSR. Diese Seite ist nur aus dem TU Dresden Netzwerk (also z.B. eduroam) erreichbar.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
        </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="202f64b5-13fc-47f3-a21f-c0e06303ece0" nodeName="node-qgvteagmzr7of">
+     <variant sortingIndex="750" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:55+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">impressum</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Impressum</title>
+      </properties>
+     </variant>
+     <node identifier="ed655a52-52c4-9d35-f9c9-20f4beaac8ac" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:55+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="d0906a2f-e32d-4efc-b4aa-5cefe0b1856a" nodeName="node-aqyiw7vlc4999">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:40:07+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:22+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:22+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Lorem Ipsum dolor sit amet&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
       </node>
      </node>
     </node>
@@ -778,6 +1379,20 @@
        <title __type="string">Fachschaftsrat</title>
       </properties>
      </variant>
+     <variant sortingIndex="250" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:52:21+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">fachschaftsrat</uriPathSegment>
+       <title __type="string">Fachschaftsrat</title>
+       <targetMode __type="string">firstChildNode</targetMode>
+      </properties>
+     </variant>
      <node identifier="8d050e65-aaf2-1700-3462-f82325336783" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
@@ -789,17 +1404,18 @@
       </variant>
      </node>
      <node identifier="78ac42f9-aab6-4bf4-bb18-5b615c68244d" nodeName="node-0ye2s277dovy9">
-      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:13+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastModificationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T16:30:39+00:00</lastModificationDateTime>
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">mitglieder</uriPathSegment>
         <title __type="string">Members</title>
+        <canonicalLink __type="string"></canonicalLink>
        </properties>
       </variant>
       <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
@@ -1179,6 +1795,267 @@
 </text>
          </properties>
         </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:18+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:31+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:31+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;In den nachfolgenden Gremien sitzen studentische Vertreter:innen der Fachschaft Informatik. Soweit nicht anders angegeben, werden diese vom Fachschaftsrat vorgeschlagen und vom Fakultätsrat aufgrund dieser Vorschläge entsandt.&lt;/p&gt;
+
+&lt;h2&gt;Studierendenrat (StuRa)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Die Vertreter:innen der Fachschaft Informatik im StuRa werden vom Fachschaftsrat entsandt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;mailto:saskia@ifsr.de&quot;&gt;Saskia Grun&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;mailto:jaster@ifsr.de&quot;&gt;Sebastian Jaster&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Folgende Posten in Geschäftsbereichen des StuRa sind derzeit von Mitgliedern unserer Fachschaft besetzt:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;mailto:hoppermann@ifsr.de&quot;&gt;Robert Hoppermann&lt;/a&gt;&amp;nbsp;/ Geschäftsführer Personal&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Fakultätsrat (FR)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Die Vertreter:innen der Fachschaft Informatik im FR werden von dieser einmal im Jahr im Zuge der Universitätswahlen gewählt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;mailto:linnemann@ifsr.de&quot;&gt;Katja Linnemann&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;mailto:schrader@ifsr.de&quot;&gt;Sebastian Schrader&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prüfungsausschüsse&lt;/h2&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Studienkommissionen&lt;/h2&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Studentische Studiengangskoordinatoren&lt;/h2&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Eignungsfeststellungsausschüsse&lt;/h2&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Weitere Gremien&lt;/h2&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="7133f65e-478d-4b3e-823e-ca0db8d201d1" nodeName="node-5fs96k3brxz43">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:28+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:31+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:31+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Entsendungen des Fachschaftsrats&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
        </node>
       </node>
      </node>
@@ -1287,6 +2164,104 @@ Der studentische Vertreter in der Auswahlkommission entscheidet zusammen mit Pro
 </text>
          </properties>
         </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:55+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:13+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:13+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;»Ist das trocken!« hört man oft, wenn man so erzählt, was in den Gremien der Fakultät und Universität geschieht. Dass aber gerade diese Zusammenkünfte nötig und wichtig sind, soll Euch die folgende Seite zeigen, die kurz die wichtigsten Gremien beschreibt.&lt;/p&gt;
+
+&lt;h2&gt;Studentenrat (StuRa)&lt;/h2&gt;
+
+&lt;p&gt;Der Studentenrat ist das höchste Gremium der studentischen Selbstverwaltung. Er tagt Donnerstags aller zwei Wochen um 19:30 in der Baracke des StuRa (hinter dem HSZ). Die Sitzungen sind öffentlich. Der StuRa besteht aus derzeit 5 Geschäftsbereichen (Inneres, Hochschulpolitik, Lehre und Studium, Öffentlichkeitsarbeit und Soziales) und zählt 37 Mitglieder, welche von den Fachschaften aller Fakultäten entsandt werden. Da aus (fast) allen Fachschaften Leute teilnehmen, ist der StuRa auch ein guter Ort für Vernetzung&lt;br /&gt;
+Der Studentenrat vertritt die Studenten uniweit gegenüber Rektorat, Land, Studentenwerk etc und ist außerdem für das Budget und das Semesterticket verantwortlich.&lt;br /&gt;
+Es wird größtenteils über finanzielle Mittel für Projekte (z.B. Ringvorlesungen, Vortragsreihen, neues Equipment für Hochschulgruppen etc.) und ideelle Dinge (z.B. welche Position werden vertreten, unterstützen wir Projekte bei der Raumsuche etc.) gesprochen.&lt;br /&gt;
+Näheres auf der&amp;nbsp;&lt;a href=&quot;https://www.stura.tu-dresden.de/&quot;&gt;Seite des StuRa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#studentenrat&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Fakultätsrat (FakRat)&lt;/h2&gt;
+
+&lt;p&gt;Der Fakultätsrat ist das »Parlament der Fakultät«. Hier werden in monatlichen Zusammenkünften die wesentlichen organisatorischen, finanziellen und personellen Themen beschlossen.&lt;br /&gt;
+Er ist richtungsweisend für die Fakultät und beschließt Termine (wie bei bspw. die OUTPUT). Er bestätigt die Studiendokumente, die in der Studienkommission beschlossen werden und ist für die Benennung von Professuren zuständig.&lt;br /&gt;
+Er besteht aus 6 Professoren, 3 Mitarbeitern und 2 Studenten.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#fakultaetsrat&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prüfungsausschuss&lt;/h2&gt;
+
+&lt;p&gt;Ein Prüfungsausschuss beschäftigt sich mit allen Fragen, die zum Thema Prüfung relevant sind. Sei es die Anerkennung von Prüfungsleistungen oder der Antrag auf eine zweite Wiederholung. Für jeden Studiengang gibt es einen eigenen Prüfungsausschuss.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#pruefungsausschuesse&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Studienkommission (StuKo)&lt;/h2&gt;
+
+&lt;p&gt;Die Studienkommissionen tagen recht selten und haben als Hauptaufgabe, Veränderungen an den Studien- und Prüfungsordnungen zu besprechen und zu beschließen. Auch hier gibt es für jeden Studiengang eine eigene StuKo.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#studienkommissionen&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Raumkommission&lt;/h2&gt;
+
+&lt;p&gt;Die Mitglieder der Raumkommission sollten einmal im Jahr tagen. Besprochen wird alles rund um Räume in der Fakultät. Wie soll die Benutzung geregelt werden? Welche Räume sollten neu verteilt werden, da sie z.B. vom einem Lehrstuhl nicht ausreichend genutzt werden?&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;*&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#weitere_gremien&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Auswahlkommission für das Deutschlandstipendium&lt;/h2&gt;
+
+&lt;p&gt;Das Deutschlandstipendium steht allen Studenten der TU Dresden zur Verfügung. Informationen dazu findet ihr unter&amp;nbsp;&lt;a href=&quot;https://tu-dresden.de/studium/rund_ums_studium/finanzierung/deutschlandstipendium/&quot;&gt;Deutschlandstipendium&lt;/a&gt;.&lt;br /&gt;
+Der studentische Vertreter in der Auswahlkommission entscheidet zusammen mit Professoren und Vertretern vom Deutschlandstipendium über die Vergabe der Stipendien.&lt;/p&gt;
+
+&lt;p&gt;*&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#weitere_gremien&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Institutsräte&lt;/h2&gt;
+
+&lt;p&gt;Auf Ebene der Institute sind die Institutsräte etabliert. In diesen sind gewählte Mitglieder des Institutes (im Regelfall alle Professoren (oder Vertretung durch einen Mitarbeiter) und wenige weitere Mitarbeiter - zusätzlich ein Studierender). Es werden Vorgehen innerhalb des Institutes besprochen. Dies kann von Raumbelegung bis hin zu Ausschreibung einer Professur gehen. Hier beraten sich die Professoren untereinander und tauschen Wissen aus.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;*&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#weitere_gremien&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Eignungsfeststellungsausschüsse Master&lt;/h2&gt;
+
+&lt;p&gt;Die beiden Zulassungsausschüsse für die Master in Informatik und Medieninformatik setzen sich jeweils aus Studiendekan, jeweiligem Prüfungsausschussvorsitzen, jeweiligen Studienfachberatern und einem Studierenden zusammen. Man trifft sich in dieser Runde um Bewerber zu sichten, ihre Zulassungsvoraussetzungen zu diskutieren und welche Leistungen tatsächlich einbringbar sind.&lt;/p&gt;
+
+&lt;p&gt;*&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/fsr:entsendungen#weitere_gremien&quot;&gt;Aktuelle Entsendungen&lt;/a&gt;&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="26d37b5d-4f8f-434e-a743-5761011c4b92" nodeName="node-z0q0c47nalyqc">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:04+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:13+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:13+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Gremien&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
        </node>
       </node>
      </node>
@@ -1311,6 +2286,37 @@ Der studentische Vertreter in der Auswahlkommission entscheidet zusammen mit Pro
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="0ed0a796-8911-4099-b3fc-8730ac3f6e21" nodeName="node-h6wcyv6q7uwxl">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:34+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Von jeder Sitzung wird ein ausführliches Protokoll angefertigt. Das Protokoll der letzten Sitzung befindet sich&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/protokolle/current.pdf&quot;&gt;hier&lt;/a&gt;.&lt;br /&gt;
+Alle Protokolle des Fachschaftsrates findet ihr auf unserem&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/&quot;&gt;FTP-Server&lt;/a&gt;&amp;nbsp;im Ordner „&lt;a href=&quot;ftp://ftp.ifsr.de/protokolle/&quot;&gt;Protokolle&lt;/a&gt;“.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="ea5bf6d1-f1e0-4921-87f5-27c500dee7b4" nodeName="node-jh80fu27ab3if">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:14+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;FSR-Sitzung&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
        <node identifier="4c501786-cebb-40a4-8dac-9adbc37e77c9" nodeName="node-on67rp0qdqlel">
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="7" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
@@ -1330,6 +2336,36 @@ Außerordentliche Sitzungen werden rechtzeitig über die üblichen Kanäle bekan
 &lt;p&gt;Von jeder Sitzung wird ein ausführliches Protokoll angefertigt. Das Protokoll der letzten Sitzung befindet sich&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/protokolle/current.pdf&quot;&gt;hier&lt;/a&gt;.&lt;br /&gt;
 Alle Protokolle des Fachschaftsrates findet ihr auf unserem&amp;nbsp;&lt;a href=&quot;ftp://ftp.ifsr.de/&quot;&gt;FTP-Server&lt;/a&gt;&amp;nbsp;im Ordner „&lt;a href=&quot;ftp://ftp.ifsr.de/protokolle/&quot;&gt;Protokolle&lt;/a&gt;“.&lt;/p&gt;
 </text>
+         </properties>
+        </variant>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="10" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:01+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Die FSR-Sitzung findet im Semester jeden&amp;nbsp;&lt;strong&gt;Montag&lt;/strong&gt;&amp;nbsp;um&amp;nbsp;&lt;strong&gt;18:45 Uhr&lt;/strong&gt;&amp;nbsp;und in der vorlesungsfreien Zeit meist zweiwöchig statt.&lt;br /&gt;
+Hier besprechen wir aktuelle, die Universität und die Fakultät Informatik betreffende Themen.&amp;nbsp;&lt;br /&gt;
+Außerordentliche Sitzungen werden rechtzeitig über die üblichen Kanäle bekannt gegeben. Die Sitzung findet öffentlich im&amp;nbsp;&lt;a href=&quot;https://navigator.tu-dresden.de/etplan/apb/01/raum/542101.3070&quot;&gt;Ratssaal APB 1004&lt;/a&gt;&amp;nbsp;statt und alle Studenten sind herzlich dazu eingeladen!&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="c238fab3-7313-4828-8280-39a139e38f92" nodeName="node-uip0zb2xs1iib">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:25+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:55:40+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Protokolle&lt;/h1&gt;
+</title>
          </properties>
         </variant>
        </node>
@@ -1370,6 +2406,111 @@ Alle Protokolle des Fachschaftsrates findet ihr auf unserem&amp;nbsp;&lt;a href=
         </variant>
        </node>
        <node identifier="967a8b0e-df65-465a-a201-7b05dfb35726" nodeName="node-yk4prcttzclxb">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:33:30+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:33:44+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:33:44+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;h1&gt;Sie, als Firma oder Organisation, möchten unsere Studenten erreichen?&lt;/h1&gt;
+
+&lt;p&gt;Gerne informieren wir unsere Fachschaft über aktuelle Stellen- oder Praktikumsangebote. Schicken Sie Ihre Anfrage dazu einfach an&amp;nbsp;&lt;a href=&quot;mailto:extern@ifsr.de&quot;&gt;extern@ifsr.de&lt;/a&gt;. Es handelt sich dabei um einen E-Mail-Verteiler, der diese nach Freischaltung durch uns an alle Interessierten weiterleitet. Bitte formulieren Sie Ihre Nachricht daher entsprechend und richten Sie sich direkt an die Studierenden.&lt;/p&gt;
+
+&lt;h1&gt;Aktuelle Informationen&lt;/h1&gt;
+
+&lt;p&gt;Was gerade aktuell in Fakultät und Fachschaftsrat passiert, könnt ihr über folgende Kanäle in Erfahrung bringen:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;Den Newsletter&amp;nbsp;&lt;a href=&quot;https://lists.ifsr.de/mailman/listinfo/fsr-info&quot;&gt;fsr-info&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Unseren&amp;nbsp;&lt;a href=&quot;https://twitter.com/ifsr&quot;&gt;Twitter-Account&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Unsere&amp;nbsp;&lt;a href=&quot;https://www.facebook.com/iFSR.de&quot;&gt;Facebook-Seite&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Zudem gibt es die Mailingliste&amp;nbsp;&lt;a href=&quot;https://lists.ifsr.de/mailman/listinfo/extern&quot;&gt;extern&lt;/a&gt;&amp;nbsp;für Jobangebote, SHK-Stellen, Konferenzen und ähnliches von externen Quellen.&lt;/p&gt;
+
+&lt;h1&gt;E-Mail-Adressen&lt;/h1&gt;
+
+&lt;p&gt;Neben unseren sozialen Kanälen bei Facebook und Twitter erreicht ihr uns und verschiedene Arbeitsgruppen über folgende E-Mail-Adressen:&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Gruppe&lt;/th&gt;
+			&lt;th&gt;E-Mail-Adresse&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;FSR allgemein&lt;/td&gt;
+			&lt;td&gt;fsr@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;AG Erstsemestereinführung:&lt;/td&gt;
+			&lt;td&gt;ese-orga@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;AG Öffentlichkeitsarbeit&lt;/td&gt;
+			&lt;td&gt;pr@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;AG Hochschulpolitik&lt;/td&gt;
+			&lt;td&gt;hopo@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Web-Administration (nicht zuständig für Inhalte):&lt;/td&gt;
+			&lt;td&gt;www@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;FTP-Administration:&lt;/td&gt;
+			&lt;td&gt;ftp@ifsr.de&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1&gt;FSR-Büro&lt;/h1&gt;
+
+&lt;p&gt;Bei Fragen, Problemen und Visionen die mit eurem Studium, aber auch mit dem Studentenleben zusammenhängen - traut euch in den Raum&amp;nbsp;&lt;strong&gt;APB E017&lt;/strong&gt;&amp;nbsp;direkt neben dem&amp;nbsp;&lt;a href=&quot;http://www.ascii-dresden.de/&quot;&gt;ASCII&lt;/a&gt;.&lt;br /&gt;
+Wann immer das Büro offen ist (am Bürostatus zu erkennen), seid ihr herzlich eingeladen, hereinzukommen.&lt;/p&gt;
+
+&lt;p&gt;Telefon&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;+49&lt;/em&gt;&amp;nbsp;351 / 463 38 226&lt;/p&gt;
+
+&lt;p&gt;Fax&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;+49&lt;/em&gt;&amp;nbsp;351 / 463 37 728&lt;/p&gt;
+
+&lt;h1&gt;Anschrift&lt;/h1&gt;
+
+&lt;p&gt;Für Besucher:&lt;/p&gt;
+
+&lt;p&gt;Fakultät Informatik&lt;br /&gt;
+Nöthnitzerstr. 46&lt;br /&gt;
+Raum E017&lt;br /&gt;
+01187 Dresden&lt;/p&gt;
+
+&lt;p&gt;Für Post:&lt;/p&gt;
+
+&lt;p&gt;Technische Universität Dresden&lt;br /&gt;
+Fakultät Informatik&lt;br /&gt;
+Fachschaftsrat&lt;br /&gt;
+D-01062 Dresden&lt;/p&gt;
+
+&lt;h1&gt;Studienberatung&lt;/h1&gt;
+
+&lt;p&gt;Die Kontaktdaten für Beratung rund um das Studium findet ihr im separaten Bereich&amp;nbsp;&lt;a href=&quot;https://www.ifsr.de/studium:studienberatung&quot;&gt;Studienberatung&lt;/a&gt;.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions/>
          <accessRoles __type="array"/>
