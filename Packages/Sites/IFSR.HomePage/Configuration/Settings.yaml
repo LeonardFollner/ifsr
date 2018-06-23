@@ -1,4 +1,8 @@
 Neos:
+  Neos:
+    userInterface:
+      backendLoginForm:
+        backgroundImage: 'resource://IFSR.HomePage/Public/Images/LoginScreen.jpg'
   ContentRepository:
     contentDimensions:
       'language':
