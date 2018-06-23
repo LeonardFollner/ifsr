@@ -3,3 +3,12 @@
     'Neos.Neos:Content': true
   ui:
     label: 'Blog Post List'
+  properties:
+    numberOfPosts:
+      type: 'string'
+      defaultValue: 5
+      ui:
+        reloadIfChanged: true
+        label: 'Number of posts'
+        inspector:
+          group: visibility
