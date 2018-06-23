@@ -30,7 +30,7 @@
 // @include foundation-media-object;
 // @include foundation-off-canvas;
 // @include foundation-orbit;
-// @include foundation-pagination;
+@include foundation-pagination;
 // @include foundation-progress-bar;
 // @include foundation-slider;
 // @include foundation-sticky;
@@ -54,6 +54,6 @@
 @import "Site";
 @import "Column";
 @import "Footer";
-
 @import "Logo";
 @import "Member";
+@import "Paginator";

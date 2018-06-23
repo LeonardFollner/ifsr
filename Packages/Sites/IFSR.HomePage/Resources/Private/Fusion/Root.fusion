@@ -59,10 +59,37 @@ prototype(IFSR.HomePage:BlogList) < prototype(Neos.Fusion:Collection) {
     itemRenderer = IFSR.HomePage:BlogPostPreview
 }
 
+prototype(IFSR.HomePage:BlogArchive) < prototype(Neos.Fusion:Template) {
+    /*@cache {
+        mode = 'dynamic'
+        entryIdentifier {
+            node = ${node}
+        }
+        entryDiscriminator = ${request.arguments.pagination}
+        context {
+            1 = 'node'
+            2 = 'documentNode'
+        }
+        entryTags {
+            1 = ${'Node_' + node.identifier}
+        }
+    }*/
+
+    templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/BlogArchive.html'
+
+    pagination = Neos.Fusion:RawArray {
+        itemsPerPage = ${q(node).property('numberOfPostsPerPage')}
+        maximumNumberOfLinks = 15
+    }
+
+    posts = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').sort('creationDateTime', 'DESC').get()}
+    itemRenderer = IFSR.HomePage:BlogPostPreview
+}
+
 prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Fusion:Template) {
     templatePath = 'resource://IFSR.HomePage/Private/Templates/FusionObjects/BlogPostPreview.html'
     main = Neos.Neos:ContentCollectionRenderer {
-        @context.node = ${q(item).children('main').get()}
+        @context.node = ${q(node).children('main').get()}
     }
 }
 

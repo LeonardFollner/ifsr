@@ -1,0 +1,14 @@
+'IFSR.HomePage:BlogArchive':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Blog Post Archive'
+  properties:
+    numberOfPostsPerPage:
+      type: 'string'
+      defaultValue: 5
+      ui:
+        reloadIfChanged: true
+        label: 'Number of posts per page'
+        inspector:
+          group: visibility

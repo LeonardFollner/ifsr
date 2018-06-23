@@ -1,0 +1,12 @@
+{namespace neoscr=Neos\ContentRepository\ViewHelpers}
+{namespace fs=Neos\Fusion\ViewHelpers}
+
+<div>
+	<neoscr:widget.paginate nodes="{posts}" as="paginatedItems" widgetId="listable-paginate" configuration="{pagination}">
+		<f:for each="{paginatedItems}" as="item" iteration="iterator">
+			<div class="callout">
+				<fs:render path="itemRenderer" context="{node: item, iterator: iterator}" /></li>
+			</div>
+		</f:for>
+	</neoscr:widget.paginate>
+</div>
