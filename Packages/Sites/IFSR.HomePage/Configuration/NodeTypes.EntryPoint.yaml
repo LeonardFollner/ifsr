@@ -5,6 +5,7 @@
     nodeTypes:
       'IFSR.HomePage:Blog': true
       'IFSR.HomePage:EntryPoint': false
+      'IFSR.HomePage:MemberCollection': true
   ui:
     label: 'Home (Entry Point)'
     icon: 'globe'

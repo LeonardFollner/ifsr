@@ -5,6 +5,12 @@
   ui:
     label: 'Mitglied'
     icon: 'icon-user'
+    inspector:
+      groups:
+        properties:
+          label: 'Eigenschaften'
+          icon: 'icon-user'
+          position: 1
   properties:
     name:
       type: 'string'
@@ -31,3 +37,44 @@
       defaultValue: 'Lorem Ipsum dolor sit amet'
       ui:
         inlineEditable: true
+    email:
+      type: 'string'
+      defaultValue: 'mathias.stuhlbein@ifsr.de'
+      ui:
+        inlineEditable: true
+    elected:
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        inlineEditable: false
+        label: 'in der aktuellen Legislatur gewählt'
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    candidate:
+      type: 'boolean'
+      defaultValue: true
+      ui:
+        inlineEditable: false
+        label: 'hat bei der letzten Wahl kandidiert'
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    associate:
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        inlineEditable: false
+        label: 'Assoziiertes Mitglied'
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'
+    former:
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        inlineEditable: false
+        label: 'ehemaliges Mitglied'
+        reloadIfChanged: true
+        inspector:
+          group: 'properties'

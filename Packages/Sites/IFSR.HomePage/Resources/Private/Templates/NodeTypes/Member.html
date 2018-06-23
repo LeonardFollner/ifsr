@@ -13,6 +13,11 @@
         </f:if>
         <div class="member__attributes">Studiengang: {neos:contentElement.editable(property: 'course')}</div>
         <div class="member__attributes">Semester: {neos:contentElement.editable(property: 'semester')}</div>
+        <f:if condition="{neos:rendering.inBackend()} || {position} != ''">
+            <f:then>
+                <div class="member__attributes">Email: {neos:contentElement.editable(property: 'email')}</div>
+            </f:then>
+        </f:if>
         <div class="member__attributes">{neos:contentElement.editable(property: 'description')}</div>
     </div>
 </div>

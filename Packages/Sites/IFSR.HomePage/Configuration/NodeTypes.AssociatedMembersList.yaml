@@ -1,0 +1,7 @@
+'IFSR.HomePage:AssociatedMembersList':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'List of associated members'
+    icon: 'icon-users'
+    group: 'listings'

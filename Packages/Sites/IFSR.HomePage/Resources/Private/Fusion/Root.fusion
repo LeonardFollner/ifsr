@@ -65,3 +65,33 @@ prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Fusion:Template) {
         @context.node = ${q(item).children('main').get()}
     }
 }
+
+prototype(IFSR.HomePage:ElectedMembersList) < prototype(Neos.Fusion:Collection) {
+    collection = ${q(site).find('[instanceof IFSR.HomePage:Member]').filter('[elected = true]').get()}
+    itemRenderer = IFSR.HomePage:Member{
+        @context.node = ${item}
+    }
+}
+
+prototype(IFSR.HomePage:AssociatedMembersList) < prototype(Neos.Fusion:Collection) {
+    collection = ${q(site).find('[instanceof IFSR.HomePage:Member]').filter('[associate = true]').get()}
+    itemRenderer = IFSR.HomePage:Member{
+        @context.node = ${item}
+    }
+}
+
+prototype(IFSR.HomePage:FormerMembersList) < prototype(Neos.Fusion:Collection) {
+    collection = ${q(site).find('[instanceof IFSR.HomePage:Member]').filter('[former = true]').get()}
+    itemRenderer = IFSR.HomePage:Member{
+        @context.node = ${item}
+    }
+}
+
+prototype(IFSR.HomePage:CandidatesList) < prototype(Neos.Fusion:Collection) {
+    collection = ${q(site).find('[instanceof IFSR.HomePage:Member]').filter('[candidate = true]').get()}
+    itemRenderer = IFSR.HomePage:Member {
+        @context.node = ${item}
+        email = ""
+        position = ""
+    }
+}

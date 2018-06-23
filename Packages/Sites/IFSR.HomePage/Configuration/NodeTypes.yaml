@@ -8,3 +8,10 @@
       'IFSR.HomePage:EntryPoint': false
       'IFSR.HomePage:BlogPost': false
       'IFSR.HomePage:Blog': false
+      'IFSR.HomePage:MemberCollection': false
+  childNodes:
+    'main':
+      constraints:
+        nodeTypes:
+          'IFSR.HomePage:Member': false
+          '*': true

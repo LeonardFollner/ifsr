@@ -1,0 +1,7 @@
+'IFSR.HomePage:FormerMembersList':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'List of former members'
+    icon: 'icon-users'
+    group: 'listings'

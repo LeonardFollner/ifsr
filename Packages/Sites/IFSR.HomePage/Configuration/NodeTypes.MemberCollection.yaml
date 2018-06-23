@@ -1,0 +1,12 @@
+'IFSR.HomePage:MemberCollection':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  childNodes:
+    'main':
+      constraints:
+        nodeTypes:
+          'IFSR.HomePage:Member': true
+          '*': false
+  ui:
+    label: 'Collection of members'
+    icon: 'icon-users'
