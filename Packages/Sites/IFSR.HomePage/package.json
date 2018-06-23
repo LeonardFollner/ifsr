@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "watch": "node-sass Resources/Private/Scss/ -o Resources/Public/Styles/ --source-map true --watch"
+        "build:css": "node-sass Resources/Private/Scss/ -o Resources/Public/Styles/ --source-map true --recursive",
+        "watch": "npm run build:css && npm run build:css -- -w"
     },
     "dependencies": {
         "foundation-sites": "^6.4.4-rc1",
