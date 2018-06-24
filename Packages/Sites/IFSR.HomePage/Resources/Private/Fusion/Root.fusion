@@ -60,7 +60,7 @@ prototype(IFSR.HomePage:BlogList) < prototype(Neos.Fusion:Collection) {
 }
 
 prototype(IFSR.HomePage:BlogArchive) < prototype(Neos.Fusion:Template) {
-    /*@cache {
+    @cache {
         mode = 'dynamic'
         entryIdentifier {
             node = ${node}
@@ -69,11 +69,12 @@ prototype(IFSR.HomePage:BlogArchive) < prototype(Neos.Fusion:Template) {
         context {
             1 = 'node'
             2 = 'documentNode'
+            3 = 'site'
         }
         entryTags {
             1 = ${'Node_' + node.identifier}
         }
-    }*/
+    }
 
     templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/BlogArchive.html'
 
@@ -89,7 +90,7 @@ prototype(IFSR.HomePage:BlogArchive) < prototype(Neos.Fusion:Template) {
 prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Fusion:Template) {
     templatePath = 'resource://IFSR.HomePage/Private/Templates/FusionObjects/BlogPostPreview.html'
     main = Neos.Neos:ContentCollectionRenderer {
-        @context.node = ${q(node).children('main').get()}
+        @context.node = ${q(item).children('main').get()}
     }
 }
 
