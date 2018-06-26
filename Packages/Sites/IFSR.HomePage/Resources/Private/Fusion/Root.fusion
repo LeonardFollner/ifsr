@@ -92,6 +92,12 @@ prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Fusion:Template) {
     main = Neos.Neos:ContentCollectionRenderer {
         @context.node = ${q(item).children('main').get()}
     }
+
+    // uncommenting the following will disable editing of the preview
+    /* prototype(Neos.Neos:Content) {
+        @process.contentElementWrapping >
+    }*/
+
 }
 
 prototype(IFSR.HomePage:MembersList) < prototype(Neos.Fusion:Collection) {

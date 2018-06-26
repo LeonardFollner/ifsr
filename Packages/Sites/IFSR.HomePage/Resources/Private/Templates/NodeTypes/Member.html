@@ -7,16 +7,12 @@
     <div class="cell auto">
         <h5>{neos:contentElement.editable(property: 'name')}</h5>
         <f:if condition="{neos:rendering.inBackend()} || {position} != ''">
-            <f:then>
-                <div class="member__attributes">Position: {neos:contentElement.editable(property: 'position')}</div>
-            </f:then>
+            <div class="member__attributes">Position: {neos:contentElement.editable(property: 'position')}</div>
         </f:if>
         <div class="member__attributes">Studiengang: {neos:contentElement.editable(property: 'course')}</div>
         <div class="member__attributes">Semester: {neos:contentElement.editable(property: 'semester')}</div>
         <f:if condition="{neos:rendering.inBackend()} || {position} != ''">
-            <f:then>
-                <div class="member__attributes">Email: {neos:contentElement.editable(property: 'email')}</div>
-            </f:then>
+            <div class="member__attributes">Email: {neos:contentElement.editable(property: 'email')}</div>
         </f:if>
         <div class="member__attributes">{neos:contentElement.editable(property: 'description')}</div>
     </div>
