@@ -115,6 +115,25 @@
         <properties/>
        </variant>
        <node identifier="8e6a4bbf-d2e3-4af3-b652-d297d7234efc" nodeName="node-vbwyciumogbsd">
+        <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T19:04:00+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T19:04:02+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T19:04:02+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Tel: &lt;a href=&quot;tel:+49351/463 38 226&quot;&gt;+49 351 / 463 38 226&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;address&lt;/strong&gt;:&lt;br /&gt;
+Fakultät Informatik&lt;br /&gt;
+Nöthnitzerstr. 46&lt;br /&gt;
+Raum E017&lt;br /&gt;
+01187 Dresden&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
         <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Text" version="15" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>de</language>
@@ -137,21 +156,6 @@ Raum E017&lt;br /&gt;
        </node>
       </node>
      </node>
-     <node identifier="64e851b8-6f04-4140-8d0f-2c175114c438" nodeName="node-u97gf9us0gaf1">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>en</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:51+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:53+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T16:50:53+00:00</lastPublicationDateTime>
-       <properties>
-        <title __type="string">&lt;h1&gt;Das&amp;nbsp;ist der geteilte Footer&lt;/h1&gt;
-</title>
-       </properties>
-      </variant>
-     </node>
     </node>
     <node identifier="b19feece-6b3b-e292-ce7c-9f711100db31" nodeName="main">
      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
@@ -163,6 +167,18 @@ Raum E017&lt;br /&gt;
       <properties/>
      </variant>
      <node identifier="1dd4f25e-87c1-4d24-b54d-023c3f26627a" nodeName="node-tq3lj75zmdund">
+      <variant sortingIndex="300" workspace="live" nodeType="IFSR.HomePage:BlogList" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-23T16:12:48+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T16:13:23+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T16:13:23+00:00</lastPublicationDateTime>
+       <properties>
+        <numberOfPosts __type="string">3</numberOfPosts>
+       </properties>
+      </variant>
       <variant sortingIndex="300" workspace="live" nodeType="IFSR.HomePage:BlogList" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
@@ -174,17 +190,6 @@ Raum E017&lt;br /&gt;
      </node>
     </node>
     <node identifier="66d0c713-9d5c-4af8-b423-0fa49aeef58e" nodeName="node-6nytymljcdyou">
-     <variant sortingIndex="347" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:11:25+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">studium</uriPathSegment>
-       <title __type="string">Studium</title>
-      </properties>
-     </variant>
      <variant sortingIndex="347" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
@@ -199,13 +204,25 @@ Raum E017&lt;br /&gt;
        <targetMode __type="string">firstChildNode</targetMode>
       </properties>
      </variant>
+     <variant sortingIndex="347" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:11:25+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">studium</uriPathSegment>
+       <title __type="string">Studium</title>
+      </properties>
+     </variant>
      <node identifier="7ce51c20-5281-6d1d-b23e-fd11e1b7c554" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
+      <variant sortingIndex="549" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:11:25+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:13:17+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:24+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:24+00:00</lastModificationDateTime>
        <properties/>
       </variant>
      </node>
@@ -493,13 +510,13 @@ Raum E017&lt;br /&gt;
        <title __type="string">Service</title>
       </properties>
      </variant>
-     <variant sortingIndex="344" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="344" workspace="live" nodeType="Neos.Neos:Shortcut" version="30" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:52:47+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:25+00:00</lastModificationDateTime>
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">service</uriPathSegment>
@@ -507,16 +524,6 @@ Raum E017&lt;br /&gt;
        <targetMode __type="string">firstChildNode</targetMode>
       </properties>
      </variant>
-     <node identifier="a4e8fc8d-7d51-d6fa-46af-30d41a803bc3" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:05:31+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:32+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
      <node identifier="27e9f168-c3e9-4804-bfa4-81a48498a09f" nodeName="node-dgpg3ursmc8h0">
       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
@@ -914,16 +921,16 @@ Raum E017&lt;br /&gt;
         </variant>
        </node>
        <node identifier="a7b20abf-6882-49be-a432-9d1583757ff3" nodeName="node-zymqgolyeyror">
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>de</language>
-         </dimensions>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:36+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:06:21+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:32+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
          <properties>
-          <text __type="string">&lt;p&gt;Der Fachschaftsrat bietet diverse Geräte zum Verleih an, beispielsweise den Raspberry Pi, Lego-Roboter, einen Switch oder die Oculus Rift. Eine Auflistung aller Leihgegenstände findest du hier:&lt;/p&gt;
+          <text __type="string">&lt;h1&gt;Geräte ausleihen&lt;/h1&gt;
+
+&lt;p&gt;Der Fachschaftsrat bietet diverse Geräte zum Verleih an, beispielsweise den Raspberry Pi, Lego-Roboter, einen Switch oder die Oculus Rift. Eine Auflistung aller Leihgegenstände findest du hier:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;
@@ -943,16 +950,16 @@ Raum E017&lt;br /&gt;
 </text>
          </properties>
         </variant>
-        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-04-26T18:06:21+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:32+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T18:07:31+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:56:36+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:57:46+00:00</lastPublicationDateTime>
          <properties>
-          <text __type="string">&lt;h1&gt;Geräte ausleihen&lt;/h1&gt;
-
-&lt;p&gt;Der Fachschaftsrat bietet diverse Geräte zum Verleih an, beispielsweise den Raspberry Pi, Lego-Roboter, einen Switch oder die Oculus Rift. Eine Auflistung aller Leihgegenstände findest du hier:&lt;/p&gt;
+          <text __type="string">&lt;p&gt;Der Fachschaftsrat bietet diverse Geräte zum Verleih an, beispielsweise den Raspberry Pi, Lego-Roboter, einen Switch oder die Oculus Rift. Eine Auflistung aller Leihgegenstände findest du hier:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;
@@ -1112,15 +1119,146 @@ Raum E017&lt;br /&gt;
       </node>
      </node>
     </node>
+    <node identifier="b5aff809-9292-4dcc-a3a8-8c09282b90a0" nodeName="node-eo6dv3ng0tbon">
+     <variant sortingIndex="850" workspace="live" nodeType="IFSR.HomePage:MemberCollection" version="3" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-23T13:54:56+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T14:10:09+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T14:10:09+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">mitglieder-sammlung</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Mitglieder-Sammlung</title>
+      </properties>
+     </variant>
+     <node identifier="08c47687-f93a-d37e-e81d-6dba07a3c550" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-23T13:54:56+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T14:10:09+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T14:10:09+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="f9bd4c7a-342a-4b4d-bf3f-5ae52ad9e32c" nodeName="node-0mp3jlkjhw3kq">
+       <variant sortingIndex="500" workspace="live" nodeType="IFSR.HomePage:Member" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:28:00+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:29:15+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:29:15+00:00</lastPublicationDateTime>
+        <properties>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <name __type="string">Mathias Stuhlbein</name>
+         <position __type="string">Bot</position>
+         <course __type="string">Bachelor Informatik</course>
+         <semester __type="string">1. Semester</semester>
+         <description __type="string">Lorem Ipsum dolor sit amet</description>
+         <email __type="string">mathias.stuhlbein@ifsr.de</email>
+         <elected __type="boolean"></elected>
+         <candidate __type="boolean"></candidate>
+         <associate __type="boolean"></associate>
+         <former __type="boolean">1</former>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="cd818eb6-4191-41e0-920c-7702e7f4d2fc" nodeName="node-21kymavi09vw7">
+       <variant sortingIndex="400" workspace="live" nodeType="IFSR.HomePage:Member" version="14" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-23T14:05:54+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:35:14+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T14:58:58+00:00</lastPublicationDateTime>
+        <properties>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <name __type="string">Fritz Ulrich</name>
+         <position __type="string"></position>
+         <course __type="string">Bachelor Informatik</course>
+         <semester __type="string">2. Semester</semester>
+         <description __type="string">Lorem Ipsum dolor sit amet</description>
+         <elected __type="boolean"></elected>
+         <candidate __type="boolean">1</candidate>
+         <associate __type="boolean">1</associate>
+         <image __type="object" __identifier="814c4d29-0603-45eb-bd07-d26bd655d320" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;814c4d29-0603-45eb-bd07-d26bd655d320&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;2017_fritz.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;96685c015ae6de304dd6a151804e12d329c4206d&quot;,&quot;hash&quot;:&quot;96685c015ae6de304dd6a151804e12d329c4206d&quot;,&quot;__identity&quot;:&quot;b90700b9-8448-4256-88db-f11a3b86db09&quot;}}</image>
+         <email __type="string"></email>
+         <former __type="boolean"></former>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="4c75865c-d75b-4b5c-ac0f-ee82d1b148cc" nodeName="node-gt6vq5ocp3ix2">
+       <variant sortingIndex="250" workspace="live" nodeType="IFSR.HomePage:Member" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-23T13:58:25+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:35:14+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:00:32+00:00</lastPublicationDateTime>
+        <properties>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <name __type="string">Christina Ulonska</name>
+         <position __type="string">Sprecherin</position>
+         <course __type="string">Bachelor Informatik</course>
+         <semester __type="string">2. Semester</semester>
+         <description __type="string">Lorem Ipsum dolor sit amet</description>
+         <elected __type="boolean">1</elected>
+         <candidate __type="boolean">1</candidate>
+         <associate __type="boolean"></associate>
+         <image __type="object" __identifier="48437ded-7340-411d-bc11-30217c14685f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;48437ded-7340-411d-bc11-30217c14685f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;2017_christina.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;8eeb94a9e8f136ae23f778fc3b64ddf4d92e3436&quot;,&quot;hash&quot;:&quot;8eeb94a9e8f136ae23f778fc3b64ddf4d92e3436&quot;,&quot;__identity&quot;:&quot;539ea875-b77a-49e0-bfe0-22c299c7d207&quot;}}</image>
+         <email __type="string">ulonska@ifsr.de</email>
+         <former __type="boolean"></former>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="cbc8a38d-ee03-4f66-85d1-abca78468268" nodeName="node-j6onsvmx40dkd">
+       <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:Member" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-23T14:03:52+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:35:14+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T14:58:58+00:00</lastPublicationDateTime>
+        <properties>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <name __type="string">Rebecca Uecker</name>
+         <position __type="string">Sprecher</position>
+         <course __type="string">Bachelor Informatik</course>
+         <semester __type="string">2. Semester</semester>
+         <description __type="string">Lorem Ipsum dolor sit amet</description>
+         <elected __type="boolean">1</elected>
+         <candidate __type="boolean">1</candidate>
+         <associate __type="boolean"></associate>
+         <image __type="object" __identifier="02f6a6a8-0450-4f5d-b3e8-019d7d77a01a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;02f6a6a8-0450-4f5d-b3e8-019d7d77a01a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;2017_rebecca.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;06152b550214bf50a9ef9253ddbd7785e78d6fdd&quot;,&quot;hash&quot;:&quot;06152b550214bf50a9ef9253ddbd7785e78d6fdd&quot;,&quot;__identity&quot;:&quot;e62643be-9a00-49e4-89c1-878a2c694277&quot;}}</image>
+         <email __type="string">rebecca@ifsr.de</email>
+         <former __type="boolean"></former>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
     <node identifier="202f64b5-13fc-47f3-a21f-c0e06303ece0" nodeName="node-qgvteagmzr7of">
-     <variant sortingIndex="750" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="1">
+     <variant sortingIndex="349" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:55+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">impressum</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
@@ -1128,25 +1266,25 @@ Raum E017&lt;br /&gt;
       </properties>
      </variant>
      <node identifier="ed655a52-52c4-9d35-f9c9-20f4beaac8ac" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:39:55+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:31+00:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
       <node identifier="d0906a2f-e32d-4efc-b4aa-5cefe0b1856a" nodeName="node-aqyiw7vlc4999">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="10" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:40:07+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:22+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:54:22+00:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:04:14+00:00</lastPublicationDateTime>
         <properties>
          <text __type="string">&lt;p&gt;Lorem Ipsum dolor sit amet&lt;/p&gt;
 </text>
@@ -1156,18 +1294,55 @@ Raum E017&lt;br /&gt;
      </node>
     </node>
     <node identifier="4819a54a-69f3-45f2-ba63-4ca02ee8e288" nodeName="node-rkxevbz4rr648">
-     <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:Blog" version="3" removed="" hidden="" hiddenInIndex="1">
-      <dimensions/>
+     <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:Blog" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2018-04-14T20:10:27+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-24T09:03:00+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:55:28+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:55:28+00:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">blog</uriPathSegment>
-       <title __type="string">Blog</title>
+       <uriPathSegment __type="string">news</uriPathSegment>
+       <title __type="string">News</title>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:Blog" version="2" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:51+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:53+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:53+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">newsen</uriPathSegment>
+       <title __type="string">News</title>
+       <canonicalLink __type="string"></canonicalLink>
       </properties>
      </variant>
      <node identifier="c67fc4f2-9e41-5721-6dee-067ddb7f2471" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:51+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:53+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:15:53+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-24T09:03:00+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:55:28+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:55:28+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
@@ -1176,14 +1351,46 @@ Raum E017&lt;br /&gt;
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T20:12:01+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="e3f6ef8c-c134-46f0-a087-42cb9bf46f76" nodeName="node-96uod8toog6y6">
-       <variant sortingIndex="100" workspace="live" nodeType="IFSR.HomePage:BlogList" version="2" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
+      <node identifier="957235ec-ee63-4053-8709-a69d16c27c83" nodeName="node-s5aj4ibhjc1al">
+       <variant sortingIndex="150" workspace="live" nodeType="IFSR.HomePage:BlogArchive" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2018-04-25T13:49:10+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2018-04-25T13:49:17+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-25T13:49:17+00:00</lastPublicationDateTime>
-        <properties/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-24T08:58:13+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-24T08:59:52+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-24T08:59:52+00:00</lastPublicationDateTime>
+        <properties>
+         <numberOfPostsPerPage __type="string">5</numberOfPostsPerPage>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="57baa62c-ff9d-4fe5-afc0-92c3d1928fec" nodeName="node-yyoa2gptjz8ky">
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:02+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:21+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:21+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Neuigkeiten&lt;/h1&gt;
+</title>
+        </properties>
+       </variant>
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:17+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:19+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-24T09:05:19+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;News&lt;/h1&gt;
+</title>
+        </properties>
        </variant>
       </node>
      </node>
@@ -1230,6 +1437,49 @@ Raum E017&lt;br /&gt;
          <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T16:55:47+00:00</lastPublicationDateTime>
          <properties>
           <image __type="object" __identifier="f9804ba0-1674-48b4-b469-32799642c990" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f9804ba0-1674-48b4-b469-32799642c990&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;spieleabend_2018-04-18--small.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;hash&quot;:&quot;084da34f6787bfbca91e29a8ec57d57fe2efad25&quot;,&quot;__identity&quot;:&quot;340e20eb-3fec-4391-ad5f-6dcb18129a27&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="5b8a154f-8105-406b-8a4f-db4f1da3a7d5" nodeName="node-h1oz0sy5ib8r2">
+      <variant sortingIndex="350" workspace="live" nodeType="IFSR.HomePage:BlogPost" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-19T19:19:25+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T19:22:07+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T19:22:07+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">test-blog-post-for-rewrite</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Test Blog Post for Rewrite</title>
+       </properties>
+      </variant>
+      <node identifier="24c690d9-4219-cf46-c9d7-633e2354e315" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-19T19:19:25+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T19:22:07+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T19:22:07+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="349fcdf3-fb41-42f2-9d43-269b2a82e1e8" nodeName="node-hgqctv7tmwu1h">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-19T19:24:01+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T19:24:05+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T19:24:05+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Headline&lt;/h1&gt;
+</title>
          </properties>
         </variant>
        </node>
@@ -1379,13 +1629,13 @@ Raum E017&lt;br /&gt;
        <title __type="string">Fachschaftsrat</title>
       </properties>
      </variant>
-     <variant sortingIndex="250" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="250" workspace="live" nodeType="Neos.Neos:Shortcut" version="30" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2018-06-19T18:52:21+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:25+00:00</lastModificationDateTime>
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-19T18:53:18+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">fachschaftsrat</uriPathSegment>
@@ -1393,31 +1643,7 @@ Raum E017&lt;br /&gt;
        <targetMode __type="string">firstChildNode</targetMode>
       </properties>
      </variant>
-     <node identifier="8d050e65-aaf2-1700-3462-f82325336783" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:15:04+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T18:46:38+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
      <node identifier="78ac42f9-aab6-4bf4-bb18-5b615c68244d" nodeName="node-0ye2s277dovy9">
-      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>en</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:13+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-19T16:30:39+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastPublicationDateTime>
-       <properties>
-        <uriPathSegment __type="string">mitglieder</uriPathSegment>
-        <title __type="string">Members</title>
-        <canonicalLink __type="string"></canonicalLink>
-       </properties>
-      </variant>
       <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
@@ -1438,25 +1664,71 @@ Raum E017&lt;br /&gt;
         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
         <properties/>
        </variant>
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
-        <dimensions>
-         <language>en</language>
-        </dimensions>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:13+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T10:30:48+00:00</lastPublicationDateTime>
-        <properties/>
-       </variant>
-       <node identifier="0b57ac6c-a914-49ff-aa05-38f63ff5e10f" nodeName="node-l8rzut86f2vts">
-        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
+       <node identifier="d65c8207-30ea-4fc0-886f-9fb14afce193" nodeName="node-a5oo2le667q05">
+        <variant sortingIndex="125" workspace="live" nodeType="IFSR.HomePage:MembersList" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T20:52:21+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastPublicationDateTime>
+         <properties>
+          <list-type __type="string">former</list-type>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="994121d0-f705-4852-b176-b20e5c4187ee" nodeName="node-filb5lkils6of">
+        <variant sortingIndex="88" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:37+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:40+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-05-17T08:10:40+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:30+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:44+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:43+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Associates&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+        <variant sortingIndex="88" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:42:24+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Assoziierte Mitglieder&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="d5a9a4fe-ccea-4627-ad98-8859dce0cae4" nodeName="node-jo6gmy8bwwa4w">
+        <variant sortingIndex="96" workspace="live" nodeType="IFSR.HomePage:MembersList" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T20:51:46+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastPublicationDateTime>
+         <properties>
+          <list-type __type="string">associate</list-type>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="0b57ac6c-a914-49ff-aa05-38f63ff5e10f" nodeName="node-l8rzut86f2vts">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:39:54+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:44+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:43+00:00</lastPublicationDateTime>
          <properties>
           <title __type="string">&lt;h1&gt;Members&lt;/h1&gt;
 </title>
@@ -1474,54 +1746,60 @@ Raum E017&lt;br /&gt;
          </properties>
         </variant>
        </node>
-       <node identifier="07b70469-fa7d-4b09-887f-f2e7021e7cf7" nodeName="node-prm2pyvryw3th">
-        <variant sortingIndex="100" workspace="live" nodeType="IFSR.HomePage:Member" version="6" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
+       <node identifier="74ab555b-f207-46d4-a1a9-bf3c5e776007" nodeName="node-o55qcblwrmifc">
+        <variant sortingIndex="99" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-04-14T18:32:14+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-14T19:01:24+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:04+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastPublicationDateTime>
          <properties>
-          <name __type="string">Mathias Stuhlbein</name>
-          <position __type="string">Bot</position>
-          <course __type="string">Bachelor Informatik</course>
-          <semester __type="string">1. Semester</semester>
-          <description __type="string">Lorem Ipsum dolor sit amet</description>
-          <image __type="object" __identifier="6e0621da-85b1-4986-a037-e9310987ed10" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6e0621da-85b1-4986-a037-e9310987ed10&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;facebook_1517752700633.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;hash&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;__identity&quot;:&quot;ba0007f1-6d2d-4ffc-94b7-cea8c64c41d9&quot;}}</image>
+          <text __type="string">&lt;p&gt;Der FSR Informatik dankt den folgenden ehemaligen Aktiven für ihr Engagement:&lt;/p&gt;
+</text>
          </properties>
         </variant>
        </node>
-       <node identifier="241bd152-a251-4b34-837c-a878a118767c" nodeName="node-qrrub7emz4jem">
-        <variant sortingIndex="250" workspace="live" nodeType="IFSR.HomePage:Member" version="12" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
+       <node identifier="e8d5ae87-9984-4111-97b7-f5d49b8c556f" nodeName="node-q55wvo2j05mgb">
+        <variant sortingIndex="97" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-04-26T16:50:57+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T16:54:09+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T16:54:08+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:42:53+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:43:54+00:00</lastPublicationDateTime>
          <properties>
-          <name __type="string">Lutz Thies</name>
-          <position __type="string">Sprecher</position>
-          <course __type="string">Master Informatik</course>
-          <semester __type="string">1. Semester</semester>
-          <description __type="string">Lorem Ipsum dolor sit amet</description>
-          <image __type="object" __identifier="6e0621da-85b1-4986-a037-e9310987ed10" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6e0621da-85b1-4986-a037-e9310987ed10&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;facebook_1517752700633.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;hash&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;__identity&quot;:&quot;ba0007f1-6d2d-4ffc-94b7-cea8c64c41d9&quot;}}</image>
+          <title __type="string">&lt;h1&gt;Ehemalige Mitglieder&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+        <variant sortingIndex="97" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:41+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:45+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:24:45+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Former Members&lt;/h1&gt;
+</title>
          </properties>
         </variant>
        </node>
-       <node identifier="f807f8dc-07bd-491a-a489-95470bec4bb1" nodeName="node-yft4hyzl37y1h">
-        <variant sortingIndex="200" workspace="live" nodeType="IFSR.HomePage:Member" version="3" removed="" hidden="" hiddenInIndex="">
-         <dimensions/>
+       <node identifier="1a53d1b3-efa1-41e6-98e0-ebe4839ade07" nodeName="node-y1x139zn8q4mt">
+        <variant sortingIndex="82" workspace="live" nodeType="IFSR.HomePage:MembersList" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2018-04-26T15:57:08+00:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2018-04-26T15:57:11+00:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2018-04-26T15:57:11+00:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T20:51:36+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:40+00:00</lastPublicationDateTime>
          <properties>
-          <name __type="string">Mathias Stuhlbein</name>
-          <position __type="string">Bot</position>
-          <course __type="string">Bachelor Informatik</course>
-          <semester __type="string">1. Semester</semester>
-          <description __type="string">Lorem Ipsum dolor sit amet</description>
-          <image __type="object" __identifier="6e0621da-85b1-4986-a037-e9310987ed10" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6e0621da-85b1-4986-a037-e9310987ed10&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;facebook_1517752700633.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;hash&quot;:&quot;1480cccfc753e41309a6dab79955e505d642b510&quot;,&quot;__identity&quot;:&quot;ba0007f1-6d2d-4ffc-94b7-cea8c64c41d9&quot;}}</image>
+          <list-type __type="string">elected</list-type>
          </properties>
         </variant>
        </node>
@@ -2260,6 +2538,142 @@ Der studentische Vertreter in der Auswahlkommission entscheidet zusammen mit Pro
          <properties>
           <title __type="string">&lt;h1&gt;Gremien&lt;/h1&gt;
 </title>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="a2127ca2-2c4d-4637-bcdb-1dbd4b5ab4a1" nodeName="node-jjbebgjmcsllt">
+      <variant sortingIndex="325" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:07:53+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:09:00+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:09:00+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">wahlen-2017</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Wahlen 2017</title>
+       </properties>
+      </variant>
+      <node identifier="1fe27275-eeca-c88f-ae27-1f81c57489d2" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:07:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:09:00+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:09:00+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="d3433e03-9b6f-4074-bd7e-ad6c9a17ef88" nodeName="node-0qzedgmgw5krl">
+        <variant sortingIndex="138" workspace="live" nodeType="IFSR.HomePage:MembersList" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T20:15:10+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:02+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T20:53:02+00:00</lastPublicationDateTime>
+         <properties>
+          <list-type __type="string">candidate</list-type>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="242ed1d3-20dc-4db5-b7a0-da95bd1525c3" nodeName="node-euqqsclg3ateh">
+        <variant sortingIndex="125" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T21:25:21+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T21:25:29+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T21:25:29+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;The candidates are:&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+        <variant sortingIndex="125" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:15:49+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:17:16+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:17:16+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Die Kandidierenden&amp;nbsp;sind:&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="921fd8dd-544b-4ccf-a7da-a878fae98ac8" nodeName="node-gcn257w8n7dki">
+        <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:16:34+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:16:50+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:16:50+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Wahlen 2017&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="c6854736-1bb4-4fdb-ba94-e1a523d92753" nodeName="node-ruq6wu1k3ba2u">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-23T15:08:20+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-23T15:16:44+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-23T15:16:44+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Wie in jedem Jahr stehen die uniweiten Wahlen wieder an. Hier informieren wir euch, wie ihr euch als Kandidat aufstellt, wie ihr als Wahlhelfer mitmischen und wann ihr wählen könnt. Diese Seite wird laufend ergänzt.&lt;/p&gt;
+
+&lt;p&gt;(Stand: 20.11.17)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wann:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;28.11. - 30.11. (jeweils von 9-17 Uhr)&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Wo:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;Dienstag, 28.11. - HSZ (Stand bei der Garderobe, direkt beim Eingang vom Hörsaal 002)&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Mittwoch, 29.11. - APB (direkt im Foyer)&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Donnerstag, 30.11. - APB (direkt im Foyer)&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Denkt bitte an euren Personal- und Studentenausweis.&lt;/p&gt;
+
+&lt;h2&gt;Kandidierende für den FSR&lt;/h2&gt;
+
+&lt;p&gt;Die unten aufgeführten 22 Kandidierenden wurden vom Wahlausschuss für die Wahlen zum Fachschaftsrat Informatik zugelassen (Angaben in Fachsemestern). Es stehen 17 Sitze zur Wahl.&lt;/p&gt;
+
+&lt;p&gt;Bedenkt bitte, dass ihr für die Wahl des Fachschaftsrats drei Stimmen besitzt, die ihr beliebig verteilen könnt (z.B. eine Stimme für jeweils eine Person oder drei Stimmen für eine Person…)&lt;/p&gt;
+
+&lt;h2&gt;Vorstellung der Kandidierenden&lt;/h2&gt;
+
+&lt;p&gt;Die Kandidaten für den FSR stellen sich am 27.11., 18:45 Uhr in der APB/E023 vor. Die wöchentliche FSR-Sitzung schließt direkt danach an.&lt;/p&gt;
+</text>
          </properties>
         </variant>
        </node>
