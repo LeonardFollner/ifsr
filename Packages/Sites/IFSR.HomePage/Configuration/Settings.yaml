@@ -3,12 +3,6 @@ Neos:
     userInterface:
       backendLoginForm:
         backgroundImage: 'resource://IFSR.HomePage/Public/Images/LoginScreen.jpg'
-    nodeTypes:
-      groups:
-        listings:
-          position: 300
-          label: 'Automatically generated listings'
-          collapsed: false
   ContentRepository:
     contentDimensions:
       'language':

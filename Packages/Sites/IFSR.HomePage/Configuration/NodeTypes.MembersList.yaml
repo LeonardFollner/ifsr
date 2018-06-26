@@ -1,0 +1,27 @@
+'IFSR.HomePage:MembersList':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'A listing of a configurable member group'
+    icon: 'icon-users'
+  properties:
+    'list-type':
+      type: string
+      defaultValue: 'elected'
+      ui:
+        label: 'Listentyp'
+        reloadIfChanged: true
+        inspector:
+          group: type
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              elected:
+                label: 'Liste gewählter Mitglieder'
+              candidate:
+                label: 'Liste der Kandidaten für die letzte Wahl'
+              former:
+                label: 'Liste ehemaliger Mitglieder'
+              associate:
+                label: 'Liste Assoziierter Mitglieder'
+

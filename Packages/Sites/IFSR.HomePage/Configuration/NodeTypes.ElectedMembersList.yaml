@@ -1,7 +1,0 @@
-'IFSR.HomePage:ElectedMembersList':
-  superTypes:
-    'Neos.Neos:Content': true
-  ui:
-    label: 'List of elected members'
-    icon: 'icon-users'
-    group: 'listings'

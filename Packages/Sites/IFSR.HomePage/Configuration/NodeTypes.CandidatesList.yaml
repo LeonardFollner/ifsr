@@ -1,7 +1,0 @@
-'IFSR.HomePage:CandidatesList':
-  superTypes:
-    'Neos.Neos:Content': true
-  ui:
-    label: 'List of candidates for the last election'
-    icon: 'icon-users'
-    group: 'listings'
