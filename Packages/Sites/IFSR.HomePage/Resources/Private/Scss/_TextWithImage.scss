@@ -3,7 +3,6 @@
 
     figure {
         float: left;
-        width: 33.33%;
         margin: $global-margin;
 
         &.neos-alignment-right {
@@ -12,6 +11,10 @@
         &.neos-alignment-center {
             float: none;
             margin: auto;
+        }
+
+        @include breakpoint(medium) {
+            width: 33.33%;
         }
     }
 }
