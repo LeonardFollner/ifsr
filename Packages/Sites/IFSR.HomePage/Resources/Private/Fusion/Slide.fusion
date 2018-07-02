@@ -3,7 +3,7 @@ prototype(IFSR.HomePage:Slide) < prototype(Neos.Neos:ContentComponent) {
       <li class="orbit-slide">
         <figure class="orbit-figure">
             <IFSR.HomePage:ImageRenderer image={q(node).property('image')}/>
-          <figcaption class="orbit-caption"><Neos.Neos:Editable property="description"/></figcaption>
+          <figcaption class="orbit-caption" @if.isSet={q(node).property('description') != ''}><Neos.Neos:Editable property="description"/></figcaption>
         </figure>
       </li>
     `
