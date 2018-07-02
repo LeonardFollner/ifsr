@@ -2,12 +2,13 @@
 <f:for each="{items}" as="item">
     <f:if condition="{item.subItems}">
         <f:then>
-            <li class="menuitem has-submenu is-dropdown-submenu-parent is-down-arrow" role="menuitem"
+            <li
+                role="menuitem"
                 data-is-click="false">
                 <neos:link.node node="{item.node}"/>
-                <ul class="submenu menu vertical">
+                <ul class="vertical menu">
                     <f:for each="{item.subItems}" as="subItem">
-                        <li class="is-submenu-item is-dropdown-submenu-item">
+                        <li>
                             <neos:link.node node="{subItem.node}"/>
                         </li>
                     </f:for>
@@ -15,7 +16,7 @@
             </li>
         </f:then>
         <f:else>
-            <li class="menuitem" role="menuitem" data-is-click="false">
+            <li role="menuitem" data-is-click="false">
                 <neos:link.node node="{item.node}"/>
             </li>
         </f:else>
