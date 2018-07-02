@@ -25,7 +25,7 @@ $neos-columns: 50, 33, 25;
     height: 100%;
 }
 
-.neos-nodetypes-twocolumn, .neos-nodetypes-threecolumn {
+.neos-nodetypes-twocolumn, .neos-nodetypes-threecolumn, .neos-nodetypes-fourcolumn {
     @extend .grid-x;
     @extend .grid-margin-x;
 }
