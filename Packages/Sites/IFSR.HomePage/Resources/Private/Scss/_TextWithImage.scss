@@ -1,0 +1,17 @@
+.neos-nodetypes-textwithimage {
+    @include clearfix;
+
+    figure {
+        float: left;
+        width: 33.33%;
+        margin: $global-margin;
+
+        &.neos-alignment-right {
+            float: right;
+        }
+        &.neos-alignment-center {
+            float: none;
+            margin: auto;
+        }
+    }
+}
