@@ -1,6 +1,24 @@
+$neos-columns: 50, 33, 25;
+
+// use foundation-grid with neos-classNames
+@include breakpoint(medium) {
+    @each $neos-width in $neos-columns {
+        $number-of-columns: floor(100/$neos-width);
+        $neos-classname: ".columns";
+        @for $i from 1 through $number-of-columns {
+            $neos-classname: $neos-classname + "-#{$neos-width}"
+        }
+
+        #{$neos-classname} {
+            .column {
+                @include xy-cell-static($size: 12/$number-of-columns, $gutter-output: false, $breakpoint: "large", $vertical: false);
+            }
+        }
+    }
+}
+
 .column {
     @extend .cell;
-    @extend .auto;
 }
 
 .container {

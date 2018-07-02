@@ -1,4 +1,5 @@
 $footer-height: 13rem;
+$footer-height--mobile: 26rem;
 
 html {
     height: 100%;
@@ -8,10 +9,14 @@ html {
 body {
     min-height: 100%;
     position: relative;
-    padding-bottom: $footer-height;
+    padding-bottom: $footer-height--mobile;
 
     hyphens: auto;
     -webkit-hyphens: auto;
+
+    @include breakpoint(medium) {
+        padding-bottom: $footer-height;
+    }
 }
 
 main {

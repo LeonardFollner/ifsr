@@ -6,11 +6,15 @@ footer {
     bottom: 0;
 
     width: 100%;
-    height: $footer-height;
+    height: $footer-height--mobile;
 
     padding: $global-padding;
     background-color: $dark-gray;
     color: $white;
+
+    @include breakpoint(medium) {
+        height: $footer-height;
+    }
 
     & > div.neos-contentcollection {
         height: 100%;
@@ -18,12 +22,15 @@ footer {
         max-width: $global-width;
     }
 
-    .column:last-of-type {
-        display: flex;
-        flex-direction: row-reverse;
+    @include breakpoint(medium) {
+        .column:last-of-type {
+            display: flex;
+            flex-direction: row-reverse;
+        }
     }
 
     ::selection {
         background-color: $primary-color;
     }
+
 }
