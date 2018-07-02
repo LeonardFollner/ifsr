@@ -12,7 +12,7 @@
           'IFSR.HomePage:Member': false
           '*': true
 
-'Neos.NodeTypes.ColumnLayouts:Column':
+'Neos.NodeTypes:Column':
   abstract: true
 
 'Neos.NodeTypes.Form:Form':
