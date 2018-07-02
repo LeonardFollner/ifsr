@@ -1,0 +1,9 @@
+prototype(IFSR.HomePage:Logo) < prototype(Neos.Neos:ContentComponent) {
+    imageUri = afx`<Neos.Fusion:ResourceUri path='Images/ifsr.svg' package="IFSR.HomePage"/>`
+
+    renderer = afx`
+        <div class="logo">
+            <img src={props.imageUri} class="logo"/>
+        </div>
+    `
+}

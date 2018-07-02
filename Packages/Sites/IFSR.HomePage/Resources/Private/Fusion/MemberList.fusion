@@ -1,0 +1,10 @@
+prototype(IFSR.HomePage:MembersList) < prototype(Neos.Fusion:Collection) {
+    @context.selectedListing = ${q(node).property('list-type')}
+    collection = ${q(site).find('[instanceof IFSR.HomePage:Member]').filter('[' + selectedListing + ' = true]').get()}
+
+    itemRenderer = IFSR.HomePage:Member {
+        @context.node = ${item}
+        position = ${selectedListing != 'candidate' ? q(node).property('position') : ''}
+        email = ${selectedListing != 'candidate' ? q(node).property('email') : ''}
+    }
+}

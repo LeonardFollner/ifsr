@@ -1,0 +1,39 @@
+/**
+ * Usage:
+ * foo = IFSR.HomePage:ImageRenderer {
+    image = ${q(node).property('foo')
+    cssClass = 'bar'
+    alt = 'baz'
+    imageMissingText = 'wooo'
+ * }
+ */
+prototype(IFSR.HomePage:ImageRenderer) < prototype(Neos.Fusion:Component) {
+    image = null
+    cssClass = ''
+    alt = ''
+    imageMissingText = 'Bild fehlt'
+    imageUri = afx`<Neos.Neos:ImageUri asset={props.image}/>`
+
+    renderer = Neos.Fusion:Case {
+        image {
+            condition = ${props.image ? true : false}
+            renderer = afx`
+                <img
+                    class={props.cssClass}
+                    src={props.imageUri}
+                    alt={props.alt}
+                />
+            `
+        }
+        imageMissing {
+            condition = ${node.context.inBackend}
+            renderer = afx`
+                <div
+                    class={props.cssClass + " image-renderer--image-missing"}
+                >
+                    {props.imageMissingText}
+                </div>
+            `
+        }
+    }
+}

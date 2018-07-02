@@ -1,0 +1,6 @@
+prototype(IFSR.HomePage:BlogList) < prototype(Neos.Fusion:Collection) {
+    @context.maxEntries = ${q(node).property('numberOfPosts')}
+
+    collection = ${q(site).find('[instanceof IFSR.HomePage:BlogPost]').slice(0, maxEntries).sort('creationDateTime', 'DESC').get()}
+    itemRenderer = IFSR.HomePage:BlogPostPreview
+}

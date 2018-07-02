@@ -17,31 +17,43 @@
       defaultValue: 'Mathias Stuhlbein'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Name]'
     position:
       type: 'string'
       defaultValue: 'Bot'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Position]'
     course:
       type: 'string'
       defaultValue: 'Bachelor Informatik'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Studiengang]'
     semester:
       type: 'string'
       defaultValue: '1. Semester'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Semester]'
     description:
       type: 'string'
       defaultValue: 'Lorem Ipsum dolor sit amet'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Beschreibung]'
     email:
       type: 'string'
       defaultValue: 'mathias.stuhlbein@ifsr.de'
       ui:
         inlineEditable: true
+        aloha:
+          placeholder: '[Email]'
     elected:
       type: 'boolean'
       defaultValue: false

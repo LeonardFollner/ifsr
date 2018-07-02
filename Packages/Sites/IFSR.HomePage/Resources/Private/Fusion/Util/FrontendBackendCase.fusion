@@ -1,0 +1,15 @@
+/**
+ * Usage:
+ * foo = IFSR.HomePage:FrontendBackendCase {
+ *     inBackend.renderer = ...
+ *     inFrontend.renderer = ...
+ * }
+ */
+prototype(IFSR.HomePage:FrontendBackendCase) < prototype(Neos.Fusion:Case) {
+    inBackend {
+        condition = ${node.context.inBackend}
+    }
+    inFrontend {
+        condition = ${TRUE}
+    }
+}

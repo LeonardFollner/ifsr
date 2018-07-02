@@ -1,0 +1,30 @@
+prototype(IFSR.HomePage:Member) < prototype(Neos.Neos:ContentComponent) {
+    renderer = afx`
+        <div class="member callout grid-x grid-margin-x">
+            <div class="cell auto">
+                <IFSR.HomePage:ImageRenderer image={q(node).property('image')} alt={'Bild: ' + q(node).property('name')}/>
+            </div>
+            <div class="cell auto">
+                <h5><Neos.Neos:Editable property="name"/></h5>
+                <IFSR.HomePage:MemberAttribute name="Position" property="position"  @if.isSet={props.position != ""}/>
+                <IFSR.HomePage:MemberAttribute name="Studiengang" property="course"/>
+                <IFSR.HomePage:MemberAttribute name="Semester" property="semester"/>
+                <IFSR.HomePage:MemberAttribute name="Email" property="email" @if.isSet={props.email !=""}/>
+                <IFSR.HomePage:MemberAttribute name="" property="description"/>
+            </div>
+        </div>
+    `
+}
+
+prototype(IFSR.HomePage:MemberAttribute) < prototype(Neos.Fusion:Component) {
+    name = null
+    property = null
+
+    renderer = afx`
+        <div class="member__attributes" @if.inFrontendNotEmpty={node.context.inBackend || q(node).property(props.property) != ''}>
+            {props.name ? props.name + ': ' : ''} <div>
+                <Neos.Neos:Editable property={props.property}/>
+            </div>
+        </div>
+    `
+}

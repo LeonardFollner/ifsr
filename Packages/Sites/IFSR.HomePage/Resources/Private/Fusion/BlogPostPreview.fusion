@@ -1,0 +1,18 @@
+prototype(IFSR.HomePage:BlogPostPreview) < prototype(Neos.Neos:ContentComponent) {
+    renderer = IFSR.HomePage:FrontendBackendCase {
+        inFrontend.renderer = afx`
+            <div class="callout">
+                <Neos.Neos:ContentCollectionRenderer @context.node={q(item).children('main').get()}/>
+            </div>
+        `
+
+        inBackend.renderer = afx`
+            <div class="callout">
+                <p>
+                    PREVIEW: Hier kannst du den Post nicht bearbeiten. Geh dafür bitte in die Newssammlung.
+                </p>
+                <Neos.Neos:ContentCollectionRenderer @context.node={q(item).children('main').get()}/>
+            </div>
+        `
+    }
+}
