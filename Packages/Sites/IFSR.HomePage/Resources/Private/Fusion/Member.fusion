@@ -1,7 +1,7 @@
 prototype(IFSR.HomePage:Member) < prototype(Neos.Neos:ContentComponent) {
     renderer = afx`
         <div class="member callout grid-x grid-margin-x">
-            <div class="cell auto">
+            <div class="cell small-12 medium-auto">
                 <IFSR.HomePage:ImageRenderer image={q(node).property('image')} alt={'Bild: ' + q(node).property('name')}/>
             </div>
             <div class="cell auto">
