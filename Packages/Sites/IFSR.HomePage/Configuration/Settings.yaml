@@ -19,3 +19,10 @@ Neos:
             label: 'Deutsch'
             values: ['de']
             uriSegment: 'de'
+  Media:
+    assetSources:
+      unsplash:
+        assetSource: 'DL\AssetSource\Unsplash\AssetSource\UnsplashAssetSource'
+        assetSourceOptions:
+          accessKey: 'aba2a6e9c424e57a1ce602148969bafad57f03c2c34aeaf6c94950d0bb9d4286'
+          utmSource: 'Neos CMS Unsplash Asset Source https://neos.io'
