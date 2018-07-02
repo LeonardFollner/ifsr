@@ -5,3 +5,8 @@
 nav .logo {
     max-height: 100px;
 }
+
+.title-bar .logo {
+    max-height: 100px;
+    @include horizontal-center;
+}
