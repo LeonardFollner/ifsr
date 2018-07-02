@@ -1,0 +1,26 @@
+'IFSR.HomePage:Slide':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes:ContentImageMixin': true
+  ui:
+    label: 'Slide'
+    icon: 'icon-image'
+    inlineEditable: true
+    inspector:
+      groups:
+        properties:
+          label: 'Eigenschaften'
+          icon: 'icon-image'
+          position: 1
+  properties:
+    'description':
+      type: string
+      defaultValue: 'Beschreibungstext'
+      ui:
+        inlineEditable: true
+        label: 'Beschreibungstext'
+        inspector: ~
+        aloha:
+          placeholder: '[kein Text]'
+          'link':
+            'a': true

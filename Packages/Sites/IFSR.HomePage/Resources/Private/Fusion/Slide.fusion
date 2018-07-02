@@ -1,0 +1,10 @@
+prototype(IFSR.HomePage:Slide) < prototype(Neos.Neos:ContentComponent) {
+    renderer = afx`
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+            <IFSR.HomePage:ImageRenderer image={q(node).property('image')}/>
+          <figcaption class="orbit-caption"><Neos.Neos:Editable property="description"/></figcaption>
+        </figure>
+      </li>
+    `
+}
