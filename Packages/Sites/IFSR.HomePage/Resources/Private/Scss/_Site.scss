@@ -29,7 +29,12 @@ main {
 main > .neos-contentcollection {
     margin: $global-margin;
 
-    & > .neos-nodetypes-text {
+    & > .neos-nodetypes-text,
+    & > .neos-nodetypes-twocolumn > .column > .neos-nodetypes-text,
+    & > .neos-nodetypes-threecolumn > .column > .neos-nodetypes-text,
+    & > .neos-nodetypes-fourcolumn > .column > .neos-nodetypes-text,
+    & > .neos-nodetypes-textwithimage
+    {
         @include callout;
     }
 }
