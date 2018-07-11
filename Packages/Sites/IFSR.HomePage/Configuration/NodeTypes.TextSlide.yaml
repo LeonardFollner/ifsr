@@ -1,0 +1,16 @@
+'IFSR.HomePage:TextSlide':
+  superTypes:
+    Neos.Neos:Content: true
+    Neos.Neos:ContentCollection: true
+  childNodes:
+    text:
+      type: 'Neos.NodeTypes:Text'
+  constraints:
+    nodeTypes:
+      '*': false
+      Neos.NodeTypes:Text: true
+      Neos.NodeTypes:Headline: true
+  ui:
+    label: 'Text-Slide'
+    icon: 'icon-file-alt'
+    inlineEditable: true

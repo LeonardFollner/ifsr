@@ -1,9 +1,9 @@
-'IFSR.HomePage:Slide':
+'IFSR.HomePage:ImageSlide':
   superTypes:
     'Neos.Neos:Content': true
     'Neos.NodeTypes:ContentImageMixin': true
   ui:
-    label: 'Slide'
+    label: 'Image-Slide'
     icon: 'icon-image'
     inlineEditable: true
     inspector:

@@ -1,4 +1,4 @@
-prototype(IFSR.HomePage:Slide) < prototype(Neos.Neos:ContentComponent) {
+prototype(IFSR.HomePage:ImageSlide) < prototype(Neos.Neos:ContentComponent) {
     renderer = afx`
       <li class="orbit-slide">
         <figure class="orbit-figure">

@@ -9,4 +9,5 @@ IFSR.HomePage:SlideShow:
   constraints:
     nodeTypes:
       '*': false
-      IFSR.HomePage:Slide: true
+      IFSR.HomePage:ImageSlide: true
+      IFSR.HomePage:TextSlide: true

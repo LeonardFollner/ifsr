@@ -9,8 +9,10 @@
     'main':
       constraints:
         nodeTypes:
-          'IFSR.HomePage:Member': false
           '*': true
+          'IFSR.HomePage:Member': false
+          'IFSR.HomePage:TextSlide': false
+          'IFSR.HomePage:ImageSlide': false
 
 'Neos.NodeTypes:Column':
   abstract: true

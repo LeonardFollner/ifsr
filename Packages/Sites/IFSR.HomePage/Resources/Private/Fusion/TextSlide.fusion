@@ -1,0 +1,13 @@
+prototype(IFSR.HomePage:TextSlide) < prototype(IFSR.HomePage:FrontendBackendCase) {
+    inBackend.renderer = IFSR.HomePage:TextSlideRenderer {
+        templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/TextSlide.html'
+    }
+    inFrontend.renderer = IFSR.HomePage:TextSlideRenderer {
+        templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/TextSlide.html'
+    }
+}
+
+prototype(IFSR.HomePage:TextSlideRenderer) < prototype(Neos.Neos:Content) {
+    text = Neos.Neos:ContentCollection {
+    }
+}
