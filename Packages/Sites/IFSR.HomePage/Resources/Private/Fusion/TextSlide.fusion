@@ -1,6 +1,6 @@
 prototype(IFSR.HomePage:TextSlide) < prototype(IFSR.HomePage:FrontendBackendCase) {
     inBackend.renderer = IFSR.HomePage:TextSlideRenderer {
-        templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/TextSlide.html'
+        templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/TextSlide.Backend.html'
     }
     inFrontend.renderer = IFSR.HomePage:TextSlideRenderer {
         templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/TextSlide.html'

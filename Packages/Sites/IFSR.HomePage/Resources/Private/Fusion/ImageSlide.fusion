@@ -1,5 +1,14 @@
 prototype(IFSR.HomePage:ImageSlide) < prototype(Neos.Neos:ContentComponent) {
-    renderer = afx`
+    renderer = IFSR.HomePage:FrontendBackendCase {
+        inBackend.renderer = afx`
+      <li class="callout">
+        <figure>
+            <IFSR.HomePage:ImageRenderer image={q(node).property('image')}/>
+          <figcaption><Neos.Neos:Editable property="description"/></figcaption>
+        </figure>
+      </li>
+    `
+        inFrontend.renderer = afx`
       <li class="orbit-slide">
         <figure class="orbit-figure">
             <IFSR.HomePage:ImageRenderer image={q(node).property('image')}/>
@@ -7,4 +16,6 @@ prototype(IFSR.HomePage:ImageSlide) < prototype(Neos.Neos:ContentComponent) {
         </figure>
       </li>
     `
+
+    }
 }

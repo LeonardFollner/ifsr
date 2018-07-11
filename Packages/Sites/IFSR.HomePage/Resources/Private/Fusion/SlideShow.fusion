@@ -1,15 +1,16 @@
 prototype(IFSR.HomePage:SlideShow) < prototype(IFSR.HomePage:FrontendBackendCase) {
-    inBackend.renderer = IFSR.HomePage:SlideShowRenderer {
+    inBackend.renderer = Neos.Neos:Content {
         templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/SlideShow.Backend.html'
+        slides = Neos.Neos:ContentCollection {
+            tagName = 'ul'
+            attributes.class = 'orbit-container--in-backend'
+        }
     }
-    inFrontend.renderer = IFSR.HomePage:SlideShowRenderer {
+    inFrontend.renderer = Neos.Neos:Content {
         templatePath = 'resource://IFSR.HomePage/Private/Templates/NodeTypes/SlideShow.html'
-    }
-}
-
-prototype(IFSR.HomePage:SlideShowRenderer) < prototype(Neos.Neos:Content) {
-    slides = Neos.Neos:ContentCollection {
-        attributes.class = 'orbit-container'
-        tagName = 'ul'
+        slides = Neos.Neos:ContentCollection {
+            tagName = 'ul'
+            attributes.class = 'orbit-container'
+        }
     }
 }
