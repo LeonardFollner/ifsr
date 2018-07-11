@@ -4,4 +4,8 @@
 
 .orbit-slide.callout {
     height: 100%;
+
+    .neos-contentcollection {
+        @include vertical-center();
+    }
 }
