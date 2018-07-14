@@ -3,6 +3,7 @@
     'Neos.Neos:Content': true
   ui:
     label: 'Blog Post Archive'
+    icon: 'icon-archive'
   properties:
     numberOfPostsPerPage:
       type: 'string'

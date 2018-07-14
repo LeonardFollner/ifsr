@@ -2,7 +2,8 @@
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: 'Blog Post List'
+    label: 'Most recent News'
+    icon: 'icon-bullhorn'
   properties:
     numberOfPosts:
       type: 'string'
