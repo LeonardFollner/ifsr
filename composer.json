@@ -28,7 +28,8 @@
         "neos/fusion-afx": "^1.0",
         "dl/assetsource-unsplash": "^1.0",
         "punktde/codeview": "^1.1",
-        "moc/notfound": "^3.0"
+        "moc/notfound": "^3.0",
+        "moc/synchronizeurl": "~2.0"
     },
     "require-dev": {
         "neos/buildessentials": "~4.1.0",

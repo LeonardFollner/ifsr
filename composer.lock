@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be1bbd33f4298ad91f666c49725def58",
+    "content-hash": "18fb455b4ee9150a9cfdd3244cf578c9",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1329,6 +1329,47 @@
                 "not found"
             ],
             "time": "2018-04-26T09:27:23+00:00"
+        },
+        {
+            "name": "moc/synchronizeurl",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mocdk/MOC.SynchronizeUrl.git",
+                "reference": "c7e8f4ba7181afb4c0baa51033c3b9dc1bbd018c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mocdk/MOC.SynchronizeUrl/zipball/c7e8f4ba7181afb4c0baa51033c3b9dc1bbd018c",
+                "reference": "c7e8f4ba7181afb4c0baa51033c3b9dc1bbd018c",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos": "~3.0 || ~4.0"
+            },
+            "type": "neos-package",
+            "autoload": {
+                "psr-0": {
+                    "MOC\\SynchronizeUrl": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aske Ertmann",
+                    "email": "aske@moc.net"
+                }
+            ],
+            "description": "Neos CMS package that keep page titles and URLs in sync by updating the URL every time the title changes",
+            "keywords": [
+                "Neos",
+                "flow",
+                "url"
+            ],
+            "time": "2018-04-24T11:29:08+00:00"
         },
         {
             "name": "neos/cache",
