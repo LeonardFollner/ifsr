@@ -1,0 +1,19 @@
+##
+# Extra frontend without .html suffix
+-
+  name:  'Frontend without .html'
+  uriPattern: '<FrontendSubRoutes>'
+  defaults:
+    '@package': 'Neos.Neos'
+    '@controller': 'Frontend\Node'
+    '@action': 'show'
+    '@format': 'html'
+  routeParts:
+    'node':
+      handler: 'Neos\Neos\Routing\FrontendNodeRoutePartHandlerInterface'
+  subRoutes:
+    'FrontendSubRoutes':
+      package: 'Neos.Neos'
+      suffix:  'Frontend'
+      variables:
+        'defaultUriSuffix': ''

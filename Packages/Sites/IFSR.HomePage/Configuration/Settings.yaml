@@ -3,6 +3,10 @@ Neos:
     userInterface:
       backendLoginForm:
         backgroundImage: 'resource://IFSR.HomePage/Public/Images/LoginScreen.jpg'
+  Flow:
+    mvc:
+      routes:
+        'IFSR.HomePage': true
   ContentRepository:
     contentDimensions:
       'language':
