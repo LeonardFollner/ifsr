@@ -5,6 +5,8 @@
       'IFSR.HomePage:BlogPost': false
       'IFSR.HomePage:Blog': false
       'IFSR.HomePage:MemberCollection': false
+      'IFSR.HomePage:TemplateCollection': false
+      'IFSR.HomePage:BlogPostTemplate': false
   childNodes:
     'main':
       constraints:
@@ -13,9 +15,20 @@
           'IFSR.HomePage:Member': false
           'IFSR.HomePage:TextSlide': false
           'IFSR.HomePage:ImageSlide': false
-
-'Neos.NodeTypes:Column':
-  abstract: true
+  options:
+    template:
+      childNodes:
+        mainContentCollection:
+          name: 'main'
+          childNodes:
+            headlineFromTitle:
+              type: 'Neos.NodeTypes:Headline'
+              properties:
+                title: '${"<h1>" + data.title + "</h1>"}'
+            exampleText:
+              type: 'Neos.NodeTypes:Text'
+              properties:
+                text: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
 
 'Neos.NodeTypes.Form:Form':
   ui: ~

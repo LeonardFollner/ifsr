@@ -3,9 +3,11 @@
     'Neos.NodeTypes:Page': true
   constraints:
     nodeTypes:
-      'IFSR.HomePage:Blog': true
       'IFSR.HomePage:EntryPoint': false
+      'IFSR.HomePage:Blog': true
       'IFSR.HomePage:MemberCollection': true
+      'IFSR.HomePage:TemplateCollection': true
+      'IFSR.HomePage:BlogPostTemplate': false
   ui:
     label: 'Home (Entry Point)'
     icon: 'globe'

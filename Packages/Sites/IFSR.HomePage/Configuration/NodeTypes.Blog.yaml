@@ -3,8 +3,16 @@
     'Neos.NodeTypes:Page': true
   ui:
     label: 'Blog'
+    icon: 'icon-bullhorn'
   constraints:
     nodeTypes:
       'Neos.Neos:Document': false
       'Neos.NodeTypes:Page': false
       'IFSR.HomePage:BlogPost': true
+  options:
+    template:
+      childNodes:
+        main:
+          childNodes:
+            archive:
+              type: 'IFSR.HomePage:BlogArchive'

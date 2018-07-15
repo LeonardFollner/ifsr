@@ -10,3 +10,10 @@
   ui:
     label: 'Collection of members'
     icon: 'icon-users'
+  options:
+    template:
+      childNodes:
+        main:
+          childNodes:
+            heading:
+              type: 'IFSR.HomePage:Member'

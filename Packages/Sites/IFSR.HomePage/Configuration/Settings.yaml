@@ -3,6 +3,12 @@ Neos:
     userInterface:
       backendLoginForm:
         backgroundImage: 'resource://IFSR.HomePage/Public/Images/LoginScreen.jpg'
+    nodeTypes:
+      groups:
+        templates:
+          position: 50
+          label: 'Templates'
+          collapsed: false
   Flow:
     mvc:
       routes:

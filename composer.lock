@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18fb455b4ee9150a9cfdd3244cf578c9",
+    "content-hash": "66fd4fd6c860105e09ece3645f0099a4",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -773,6 +773,36 @@
                 "orm"
             ],
             "time": "2018-02-27T07:30:56+00:00"
+        },
+        {
+            "name": "flowpack/nodetemplates",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flowpack/Flowpack.NodeTemplates.git",
+                "reference": "92d6870698ce1f533fd4e3a4a89261cff330d038"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.NodeTemplates/zipball/92d6870698ce1f533fd4e3a4a89261cff330d038",
+                "reference": "92d6870698ce1f533fd4e3a4a89261cff330d038",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos-ui": "*"
+            },
+            "type": "neos-package",
+            "autoload": {
+                "psr-4": {
+                    "Flowpack\\NodeTemplates\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "Neos package that allows to modify nodes on creation via templates.",
+            "time": "2018-04-12T14:08:24+00:00"
         },
         {
             "name": "gedmo/doctrine-extensions",

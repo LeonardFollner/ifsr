@@ -11,7 +11,7 @@
     "name": "ifsr/homepage",
     "autoload": {
         "psr-4": {
-            "IFSR\\HomePage\\": "Classes/"
+            "IFSR\\HomePage\\": "Classes"
         }
     },
     "extra": {

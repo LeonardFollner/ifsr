@@ -4,6 +4,23 @@
   ui:
     label: 'A listing of a configurable member group'
     icon: 'icon-users'
+    creationDialog:
+      elements:
+        'listType':
+          type: string
+          ui:
+            label: 'Which members should appear in the listing?'
+            editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+            editorOptions:
+              values:
+                elected:
+                  label: 'Liste gewählter Mitglieder'
+                candidate:
+                  label: 'Liste der Kandidaten für die letzte Wahl'
+                former:
+                  label: 'Liste ehemaliger Mitglieder'
+                associate:
+                  label: 'Liste Assoziierter Mitglieder'
   properties:
     'list-type':
       type: string
@@ -24,4 +41,7 @@
                 label: 'Liste ehemaliger Mitglieder'
               associate:
                 label: 'Liste Assoziierter Mitglieder'
-
+  options:
+    template:
+      properties:
+        'list-type': ${data.listType}
