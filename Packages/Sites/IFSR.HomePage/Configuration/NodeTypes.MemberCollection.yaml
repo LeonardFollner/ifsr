@@ -8,12 +8,14 @@
           'IFSR.HomePage:Member': true
           '*': false
   ui:
-    label: 'Collection of members'
+    label: i18n
     icon: 'icon-users'
+    help:
+      message: i18n
   options:
     template:
       childNodes:
         main:
           childNodes:
-            heading:
+            firstMember:
               type: 'IFSR.HomePage:Member'

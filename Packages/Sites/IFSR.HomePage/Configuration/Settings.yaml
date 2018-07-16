@@ -3,6 +3,9 @@ Neos:
     userInterface:
       backendLoginForm:
         backgroundImage: 'resource://IFSR.HomePage/Public/Images/LoginScreen.jpg'
+      translation:
+        autoInclude:
+          'IFSR.HomePage': ['NodeTypes/*']
     nodeTypes:
       groups:
         templates:

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="member.position" xml:space="preserve">
+                <source>Position</source>
+            </trans-unit>
+            <trans-unit id="member.course" xml:space="preserve">
+                <source>Course</source>
+            </trans-unit>
+            <trans-unit id="member.semester" xml:space="preserve">
+                <source>Semester</source>
+            </trans-unit>
+            <trans-unit id="member.email" xml:space="preserve">
+                <source>Email</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

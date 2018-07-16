@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Member</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>A person relevant to the iFSR or elections (elected, candidate, former, associate)</source>
+                        </trans-unit>
+                        <trans-unit id="groups.properties" xml:space="preserve">
+                                <source>Status</source>
+                        </trans-unit>
+
+                        <!-- inline placeholders -->
+                        <trans-unit id="properties.name.aloha.placeholder" xml:space="preserve">
+                                <source>[name]</source>
+                        </trans-unit>
+                        <trans-unit id="properties.position.aloha.placeholder" xml:space="preserve">
+                                <source>[position]</source>
+                        </trans-unit>
+                        <trans-unit id="properties.course.aloha.placeholder" xml:space="preserve">
+                                <source>[course]</source>
+                        </trans-unit>
+                        <trans-unit id="properties.semester.aloha.placeholder" xml:space="preserve">
+                                <source>[semester]</source>
+                        </trans-unit>
+                        <trans-unit id="properties.description.aloha.placeholder" xml:space="preserve">
+                                <source>[description]</source>
+                        </trans-unit>
+                        <trans-unit id="properties.email.aloha.placeholder" xml:space="preserve">
+                                <source>[email]</source>
+                        </trans-unit>
+
+                        <!-- properties -->
+                        <trans-unit id="properties.elected" xml:space="preserve">
+                                <source>currently elected</source>
+                        </trans-unit>
+                        <trans-unit id="properties.elected.ui.help.message" xml:space="preserve">
+                                <source>has been elected for the current legislation</source>
+                        </trans-unit>
+                        <trans-unit id="properties.candidate" xml:space="preserve">
+                                <source>candidate for the last/present elections</source>
+                        </trans-unit>
+                        <trans-unit id="properties.candidate.ui.help.message" xml:space="preserve">
+                                <source>has been a candidate for the last election or is a candidate for the upcoming elections</source>
+                        </trans-unit>
+                        <trans-unit id="properties.associate" xml:space="preserve">
+                                <source>associate</source>
+                        </trans-unit>
+                        <trans-unit id="properties.associate.ui.help.message" xml:space="preserve">
+                                <source>is an associated member of the iFSR</source>
+                        </trans-unit>
+                        <trans-unit id="properties.former" xml:space="preserve">
+                                <source>former member or associate</source>
+                        </trans-unit>
+                        <trans-unit id="properties.former.ui.help.message" xml:space="preserve">
+                                <source>has once been active for the iFSR</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Image Slide</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>A slide containing an image including a caption</source>
+                        </trans-unit>
+                        <trans-unit id="properties.description.aloha.placeholder" xml:space="preserve">
+                                <source>[Caption]</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>

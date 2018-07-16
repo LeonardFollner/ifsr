@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="de" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Mitglieder Liste</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>Eine Liste, die eine einstellbare Gruppe von Mitgliedern zeigt</source>
+                        </trans-unit>
+
+                        <!-- creation dialog -->
+                        <trans-unit id="creationDialog.listType" xml:space="preserve">
+                                <source>Eine Liste von …</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.listType.selectBoxEditor.values.elected" xml:space="preserve">
+                                <source>gewählten Mitgliedern</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.listType.selectBoxEditor.values.candidate" xml:space="preserve">
+                                <source>Wahl-Kandididierenden</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.listType.selectBoxEditor.values.former" xml:space="preserve">
+                                <source>früheren Aktiven</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.listType.selectBoxEditor.values.associate" xml:space="preserve">
+                                <source>assoziierten Mitgliedern</source>
+                        </trans-unit>
+
+                        <!-- properties -->
+                        <trans-unit id="properties.list-type" xml:space="preserve">
+                                <source>Eine Liste von …</source>
+                        </trans-unit>
+                        <trans-unit id="properties.list-type.selectBoxEditor.values.elected" xml:space="preserve">
+                                <source>gewählten Mitgliedern</source>
+                        </trans-unit>
+                        <trans-unit id="properties.list-type.selectBoxEditor.values.candidate" xml:space="preserve">
+                                <source>Wahl-Kandidierenden</source>
+                        </trans-unit>
+                        <trans-unit id="properties.list-type.selectBoxEditor.values.former" xml:space="preserve">
+                                <source>ehemaligen Aktiven</source>
+                        </trans-unit>
+                        <trans-unit id="properties.list-type.selectBoxEditor.values.associate" xml:space="preserve">
+                                <source>assoziierten Mitgliedern</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>

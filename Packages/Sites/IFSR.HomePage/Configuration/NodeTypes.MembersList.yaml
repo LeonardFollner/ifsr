@@ -2,31 +2,33 @@
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: 'A listing of a configurable member group'
+    label: i18n
     icon: 'icon-users'
+    help:
+      message: i18n
     creationDialog:
       elements:
         'listType':
           type: string
           ui:
-            label: 'Which members should appear in the listing?'
+            label: i18n
             editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
             editorOptions:
               values:
                 elected:
-                  label: 'Liste gewählter Mitglieder'
+                  label: i18n
                 candidate:
-                  label: 'Liste der Kandidaten für die letzte Wahl'
+                  label: i18n
                 former:
-                  label: 'Liste ehemaliger Mitglieder'
+                  label: i18n
                 associate:
-                  label: 'Liste Assoziierter Mitglieder'
+                  label: i18n
   properties:
     'list-type':
       type: string
       defaultValue: 'elected'
       ui:
-        label: 'Listentyp'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: type
@@ -34,13 +36,13 @@
           editorOptions:
             values:
               elected:
-                label: 'Liste gewählter Mitglieder'
+                label: i18n
               candidate:
-                label: 'Liste der Kandidaten für die letzte Wahl'
+                label: i18n
               former:
-                label: 'Liste ehemaliger Mitglieder'
+                label: i18n
               associate:
-                label: 'Liste Assoziierter Mitglieder'
+                label: i18n
   options:
     template:
       properties:

@@ -3,24 +3,19 @@
     'Neos.Neos:Content': true
     'Neos.NodeTypes:ContentImageMixin': true
   ui:
-    label: 'Image-Slide'
+    label: i18n
     icon: 'icon-image'
     inlineEditable: true
-    inspector:
-      groups:
-        properties:
-          label: 'Eigenschaften'
-          icon: 'icon-image'
-          position: 1
+    help:
+      message: i18n
   properties:
     'description':
       type: string
-      defaultValue: 'Beschreibungstext'
       ui:
         inlineEditable: true
-        label: 'Beschreibungstext'
+        label: i18n
         inspector: ~
         aloha:
-          placeholder: '[kein Text]'
+          placeholder: i18n
           'link':
             'a': true

@@ -3,12 +3,14 @@
     'Neos.Neos:Content': true
     'Neos.NodeTypes:ContentImageMixin': true
   ui:
-    label: 'Mitglied'
+    label: i18n
     icon: 'icon-user'
+    help:
+      message: i18n
     inspector:
       groups:
         properties:
-          label: 'Eigenschaften'
+          label: i18n
           icon: 'icon-user'
           position: 1
   properties:
@@ -18,75 +20,83 @@
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Name]'
+          placeholder: i18n
     position:
       type: 'string'
       defaultValue: 'Bot'
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Position]'
+          placeholder: i18n
     course:
       type: 'string'
       defaultValue: 'Bachelor Informatik'
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Studiengang]'
+          placeholder: i18n
     semester:
       type: 'string'
       defaultValue: '1. Semester'
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Semester]'
+          placeholder: i18n
     description:
       type: 'string'
       defaultValue: 'Lorem Ipsum dolor sit amet'
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Beschreibung]'
+          placeholder: i18n
     email:
       type: 'string'
       defaultValue: 'mathias.stuhlbein@ifsr.de'
       ui:
         inlineEditable: true
         aloha:
-          placeholder: '[Email]'
+          placeholder: i18n
     elected:
       type: 'boolean'
       defaultValue: false
       ui:
         inlineEditable: false
-        label: 'in der aktuellen Legislatur gewählt'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: 'properties'
+        help:
+          message: i18n
     candidate:
       type: 'boolean'
       defaultValue: true
       ui:
         inlineEditable: false
-        label: 'hat bei der letzten Wahl kandidiert'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: 'properties'
+        help:
+          message: i18n
     associate:
       type: 'boolean'
       defaultValue: false
       ui:
         inlineEditable: false
-        label: 'Assoziiertes Mitglied'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: 'properties'
+        help:
+          message: i18n
     former:
       type: 'boolean'
       defaultValue: false
       ui:
         inlineEditable: false
-        label: 'ehemaliges Mitglied'
+        label: i18n
         reloadIfChanged: true
         inspector:
           group: 'properties'
+        help:
+          message: i18n

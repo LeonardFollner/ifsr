@@ -11,6 +11,8 @@
       Neos.NodeTypes:Text: true
       Neos.NodeTypes:Headline: true
   ui:
-    label: 'Text-Slide'
+    label: i18n
     icon: 'icon-file-alt'
     inlineEditable: true
+    help:
+      message: i18n

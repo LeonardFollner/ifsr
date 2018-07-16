@@ -2,14 +2,18 @@
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: 'Most recent News'
+    label: i18n
     icon: 'icon-bullhorn'
+    help:
+      message: i18n
   properties:
     numberOfPosts:
       type: 'string'
       defaultValue: 5
       ui:
         reloadIfChanged: true
-        label: 'Number of posts'
+        label: i18n
         inspector:
           group: visibility
+        help:
+          message: i18n

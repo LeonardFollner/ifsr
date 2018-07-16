@@ -9,8 +9,10 @@
       'IFSR.HomePage:TemplateCollection': true
       'IFSR.HomePage:BlogPostTemplate': false
   ui:
-    label: 'Home (Entry Point)'
+    label: i18n
     icon: 'globe'
+    help:
+      message: i18n
   childNodes:
       footer:
         type: 'Neos.Neos:ContentCollection'

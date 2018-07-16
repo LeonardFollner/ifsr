@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Blog Post Archive</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>Paginated listing of all Blog Posts</source>
+                        </trans-unit>
+                        <trans-unit id="properties.numberOfPostsPerPage" xml:space="preserve">
+                                <source>Number of posts per page</source>
+                        </trans-unit>
+                        <trans-unit id="properties.numberOfPostsPerPage.ui.help.message" xml:space="preserve">
+                                <source>After how many posts a new page is created</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>

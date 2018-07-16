@@ -6,10 +6,10 @@ prototype(IFSR.HomePage:Member) < prototype(Neos.Neos:ContentComponent) {
             </div>
             <div class="cell auto">
                 <h5><Neos.Neos:Editable property="name"/></h5>
-                <IFSR.HomePage:MemberAttribute name="Position" property="position"  @if.isSet={props.position != ""}/>
-                <IFSR.HomePage:MemberAttribute name="Studiengang" property="course"/>
-                <IFSR.HomePage:MemberAttribute name="Semester" property="semester"/>
-                <IFSR.HomePage:MemberAttribute name="Email" property="email" @if.isSet={props.email !=""}/>
+                <IFSR.HomePage:MemberAttribute name={Translation.translate('member.position', null, [], null, 'IFSR.HomePage')} property="position"  @if.isSet={props.position != ""}/>
+                <IFSR.HomePage:MemberAttribute name={Translation.translate('member.course', null, [], null, 'IFSR.HomePage')} property="course"/>
+                <IFSR.HomePage:MemberAttribute name={Translation.translate('member.semester', null, [], null, 'IFSR.HomePage')} property="semester"/>
+                <IFSR.HomePage:MemberAttribute name={Translation.translate('member.email', null, [], null, 'IFSR.HomePage')} property="email" @if.isSet={props.email !=""}/>
                 <IFSR.HomePage:MemberAttribute name="" property="description"/>
             </div>
         </div>
