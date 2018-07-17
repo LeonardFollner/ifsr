@@ -14,6 +14,9 @@
                         <trans-unit id="properties.address.ui.help.message" xml:space="preserve">
                                 <source>the address, which should be shown on the map</source>
                         </trans-unit>
+                        <trans-unit id="creationDialog.address" xml:space="preserve">
+                                <source>address</source>
+                        </trans-unit>
                 </body>
         </file>
 </xliff>
