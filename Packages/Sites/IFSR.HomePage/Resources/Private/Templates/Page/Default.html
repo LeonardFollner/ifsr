@@ -7,9 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
         <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/main.css', package: 'IFSR.HomePage')}"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
     </f:section>
     <f:section name="headScripts">
         <!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+        <script>
+            var maps = {}; //stores all maps on the current page
+        </script>
     </f:section>
 </head>
 <body>

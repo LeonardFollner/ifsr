@@ -1,0 +1,59 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+
+<div id='{node.nodeData.identifier}'></div>
+<script>
+    var address = '{address}';
+    var id = '{node.nodeData.identifier}';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibGVvbmFyZC1mb2xsbmVyIiwiYSI6ImNqam9senQ1ejdveGkzcG82dDJybzFxcjQifQ.6DVIkTxVxdjCapfxaGQ_Og';
+    maps[id] = new mapboxgl.Map({
+        container: id,
+        style: 'mapbox://styles/leonard-follner/cja00yquk91t62rrit1exs68m',
+        center: [13.73333, 51.03333],
+        zoom: 13
+    });
+
+    function httpGetAsync(theUrl, callback)
+    {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = function() {
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                callback(xmlHttp.responseText);
+        };
+        xmlHttp.open("GET", theUrl, true); // true for asynchronous
+        xmlHttp.send(null);
+    }
+
+    httpGetAsync(
+        'https://api.mapbox.com/v4/geocode/mapbox.places/'+ address +'.json?access_token='+ mapboxgl.accessToken,
+        showMap(id)
+    );
+
+    function showMap(id) {
+        return function (result) {
+            data = JSON.parse(result);
+            bestMatch = data.features[0];
+            if (bestMatch && bestMatch.relevance > 0.8) {
+                maps[id].setCenter([bestMatch.center[0], bestMatch.center[1]]);
+                maps[id].setZoom(13);
+                var geojson = {
+                    type: 'Feature',
+                    geometry: bestMatch.geometry,
+                    properties: {
+                        title: bestMatch.text,
+                        description: bestMatch.place_name,
+                    }
+                };
+
+                var div = document.createElement('div');
+                div.className = 'mapboxgl-marker';
+
+                new mapboxgl.Marker(div)
+                    .setLngLat(geojson.geometry.coordinates)
+                    .setPopup(new mapboxgl.Popup({offset: 25})
+                        .setHTML('<h3>' + geojson.properties.title + '</h3><p>' + geojson.properties.description + '</p>'))
+                    .addTo(maps[id]);
+            }
+        }
+    }
+</script>

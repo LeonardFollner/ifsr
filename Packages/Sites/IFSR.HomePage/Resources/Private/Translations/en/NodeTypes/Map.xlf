@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Map</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>A map showing an address</source>
+                        </trans-unit>
+                        <trans-unit id="properties.address" xml:space="preserve">
+                                <source>Address</source>
+                        </trans-unit>
+                        <trans-unit id="properties.address.ui.help.message" xml:space="preserve">
+                                <source>the address, which should be shown on the map</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>
