@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="en" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Campus Navigator</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>A map of a room, floor or building from campus navigator</source>
+                        </trans-unit>
+                        <trans-unit id="groups.location" xml:space="preserve">
+                                <source>Location</source>
+                        </trans-unit>
+
+                        <!-- properties -->
+                        <trans-unit id="properties.campus" xml:space="preserve">
+                                <source>Campus</source>
+                        </trans-unit>
+                        <trans-unit id="properties.campus.ui.help.message" xml:space="preserve">
+                                <source>Which part of the campus</source>
+                        </trans-unit>
+                        <trans-unit id="properties.building" xml:space="preserve">
+                                <source>Short name of building</source>
+                        </trans-unit>
+                        <trans-unit id="properties.building.ui.help.message" xml:space="preserve">
+                                <source>The official TU short name of the building</source>
+                        </trans-unit>
+                        <trans-unit id="properties.floor" xml:space="preserve">
+                                <source>Floor</source>
+                        </trans-unit>
+                        <trans-unit id="properties.floor.ui.help.message" xml:space="preserve">
+                                <source>Floor number (0 = ground floor)</source>
+                        </trans-unit>
+                        <trans-unit id="properties.overwriteOrRoom" xml:space="preserve">
+                                <source>URL to room or for overwriting</source>
+                        </trans-unit>
+                        <trans-unit id="properties.overwriteOrRoom.ui.help.message" xml:space="preserve">
+                                <source>Direct URL copied from Campus Navigator (to a room or to overwrite other Settings)</source>
+                        </trans-unit>
+
+                        <!-- creation dialog -->
+                        <trans-unit id="creationDialog.campus" xml:space="preserve">
+                                <source>Campus</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.building" xml:space="preserve">
+                                <source>Short name of building</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.floor" xml:space="preserve">
+                                <source>Floor</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.overwriteOrRoom" xml:space="preserve">
+                                <source>URL to room or for overwriting</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>

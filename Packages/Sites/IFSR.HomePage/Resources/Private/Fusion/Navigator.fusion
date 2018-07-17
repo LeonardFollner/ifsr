@@ -1,0 +1,41 @@
+prototype(IFSR.HomePage:Navigator) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Neos.Fusion:Case {
+        overwriteOrRoom {
+            condition = ${node.properties.overwriteOrRoom != NULL && node.properties.overwriteOrRoom != ''}
+            renderer = IFSR.HomePage:iFrame {
+                url = ${node.properties.overwriteOrRoom}
+            }
+        }
+        floor {
+            condition = ${node.properties.building != NULL && node.properties.building != '' && node.properties.floor != NULL && node.properties.floor != ''}
+            renderer = IFSR.HomePage:iFrame {
+                url = ${'https://navigator.tu-dresden.de/etplan/' + node.properties.building + '/' + (String.length(node.properties.floor) == 1 ? '0' : '') + node.properties.floor}
+            }
+        }
+        building {
+            condition = ${node.properties.building != NULL && node.properties.building != ''}
+            renderer = IFSR.HomePage:iFrame {
+                url = ${'https://navigator.tu-dresden.de/karten/' + node.properties.campus + '/geb/' + node.properties.building}
+            }
+        }
+        campus {
+            condition = ${TRUE}
+            renderer = IFSR.HomePage:iFrame {
+                url = ${'https://navigator.tu-dresden.de/karten/' + node.properties.campus}
+            }
+        }
+    }
+}
+
+prototype(IFSR.HomePage:iFrame) < prototype(Neos.Fusion:Component) {
+    url = null
+
+    renderer = afx`
+        <iframe width='100%'
+                height='500'
+                frameborder='0'
+                src={props.url}
+                sandbox='allow-scripts allow-forms allow-same-origin allow-top-navigation allow-popups'>
+        </iframe>
+    `
+}

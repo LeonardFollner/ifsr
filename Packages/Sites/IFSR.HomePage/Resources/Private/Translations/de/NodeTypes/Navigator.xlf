@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+        <file original="" product-name="IFSR.HomePage" source-language="de" datatype="plaintext">
+                <body>
+                        <trans-unit id="ui.label" xml:space="preserve">
+                                <source>Campus Navigator</source>
+                        </trans-unit>
+                        <trans-unit id="ui.help.message" xml:space="preserve">
+                                <source>Einen Raum, eine Etage, ein Gebäude oder den Campus im Campus Navigator anzeigen</source>
+                        </trans-unit>
+                        <trans-unit id="groups.location" xml:space="preserve">
+                                <source>Ort</source>
+                        </trans-unit>
+
+                        <!-- properties -->
+                        <trans-unit id="properties.campus" xml:space="preserve">
+                                <source>Campus</source>
+                        </trans-unit>
+                        <trans-unit id="properties.campus.ui.help.message" xml:space="preserve">
+                                <source>Welcher Teil des Campus</source>
+                        </trans-unit>
+                        <trans-unit id="properties.building" xml:space="preserve">
+                                <source>Gebäudekürzel</source>
+                        </trans-unit>
+                        <trans-unit id="properties.building.ui.help.message" xml:space="preserve">
+                                <source>Das TU Kürzel des Gebäudes</source>
+                        </trans-unit>
+                        <trans-unit id="properties.floor" xml:space="preserve">
+                                <source>Etage (für Etagenplan)</source>
+                        </trans-unit>
+                        <trans-unit id="properties.floor.ui.help.message" xml:space="preserve">
+                                <source>Die Etagennummer für einen Etagenplan (0 = Erdgeschoss)</source>
+                        </trans-unit>
+                        <trans-unit id="properties.overwriteOrRoom" xml:space="preserve">
+                                <source>URL zum Überschreiben / zum Raum</source>
+                        </trans-unit>
+                        <trans-unit id="properties.overwriteOrRoom.ui.help.message" xml:space="preserve">
+                                <source>Direkte URL zum CampusNavigator (für Räume und Zum Überwschreiben der anderen Einstellungen)</source>
+                        </trans-unit>
+
+                        <!-- creation dialog -->
+                        <trans-unit id="creationDialog.campus" xml:space="preserve">
+                                <source>Campus</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.building" xml:space="preserve">
+                                <source>Gebäudekürzel</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.floor" xml:space="preserve">
+                                <source>Etage (für Etagenplan)</source>
+                        </trans-unit>
+                        <trans-unit id="creationDialog.overwriteOrRoom" xml:space="preserve">
+                                <source>URL zum Überschreiben / zum Raum</source>
+                        </trans-unit>
+                </body>
+        </file>
+</xliff>
