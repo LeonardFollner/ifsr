@@ -6,6 +6,7 @@
 /Configuration/
 /Data/
 /Packages/Application/*
+/Packages/Carbon/
 /Packages/Framework/
 /Packages/Libraries/
 /Packages/Plugins/
